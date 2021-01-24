@@ -1,0 +1,58 @@
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/ARM_GCC_541/Debug/main.o : D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/CyDmac.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/CyFlash.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/CyLib.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/CySpc.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/LCD.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/LCD_LCDPort.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/LCD_LCDPort_aliases.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/RTC.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/UART.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/UART_IntClock.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cmsis_armcc.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cmsis_compiler.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cmsis_gcc.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/core_cm3.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cyPm.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cydevice.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cydevice_trm.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cydisabledsheets.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cyfitter.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cypins.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cytypes.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/project.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/cyapicallbacks.h D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/main.c D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/utils.h 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/CyDmac.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/CyFlash.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/CyLib.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/CySpc.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/LCD.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/LCD_LCDPort.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/LCD_LCDPort_aliases.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/RTC.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/UART.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/UART_IntClock.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cmsis_armcc.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cmsis_compiler.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cmsis_gcc.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/core_cm3.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cyPm.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cydevice.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cydisabledsheets.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cyfitter.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cypins.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cytypes.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/project.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/cyapicallbacks.h : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/main.c : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/utils.h : 
+

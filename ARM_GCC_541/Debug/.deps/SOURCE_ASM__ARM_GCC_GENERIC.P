@@ -1,0 +1,10 @@
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/ARM_GCC_541/Debug/CyBootAsmGnu.o : D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cydevicegnu.inc D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cydevicegnu_trm.inc D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cyfittergnu.inc 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cydevicegnu.inc : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cydevicegnu_trm.inc : 
+
+D:/KR_Marichka/Workspace01/RtcDesign01.cydsn/Generated_Source/PSoC5/cyfittergnu.inc : 
+
