@@ -1,0 +1,1 @@
+'F:\kyrsach Bench\1-wire Protocol\DHT11_forP5.cydsn\main.c' -o .o -T SOURCE_C__ARM_GCC_GENERIC -I 'F:\kyrsach Bench\1-wire Protocol\DHT11_forP5.cydsn' -I 'F:\kyrsach Bench\1-wire Protocol\DHT11_forP5.cydsn\Generated_Source\PSoC5' -f 'F:\kyrsach Bench\1-wire Protocol\DHT11_forP5.cydsn\CortexM3\ARM_GCC_541\Debug\.deps\SOURCE_C__ARM_GCC_GENERIC.d'

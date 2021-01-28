@@ -1,0 +1,9 @@
+F:\kyrsach Bench\1-wire Protocol\DHT11 POC.cydsn\DHT11 POC.cyprj|704a949d-9dde-467a-8c87-a3aef1b554c4
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|dec0a356-7d6a-4114-b52c-fde868a00a74
+G:\Стандартные папки\Документы\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|a1cd5bcc-e320-4ac5-9cf6-1c155ffc74a7
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|bceb240d-9965-44c5-b7ca-433e647fd1f7
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|bfe6d7bd-a9ac-4c53-88b0-393176b9752c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|1e8dc638-9a50-46c6-86f4-b6272001478d
+F:\kyrsach Bench\1-wire Protocol\DHT11_forP5.cydsn\DHT11_forP5.cyprj|ab6d90dd-79fc-4293-a7eb-407a1cd1b031
+F:\kyrsach Bench\1-wire Protocol\Yura_Kursova.cydsn\Yura_Kursova.cyprj|c6105c8e-9ffa-45d8-a55c-f44c2988f0d6
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\psoc3\AnalogDevice\PSoC35AnalogDevice.cylib\PSoC35AnalogDevice.cyprj|5772f0c8-06b6-4e86-9f91-44374c29c9cb
