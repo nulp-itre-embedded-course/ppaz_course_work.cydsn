@@ -1,0 +1,6 @@
+E:\Bench\kursova\Yura_Kursova.cydsn\Yura_Kursova.cydsn\Yura_Kursova.cyprj|71b27a52-47db-4024-9b18-890f63e7da03
+F:\PSoCCreatorSetup\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|d2ca2524-6ec2-4a9f-95c4-58e9dfa5d100
+C:\Users\yurao\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|4ce1c0ab-d701-4733-91ab-46086f5f6f56
+F:\PSoCCreatorSetup\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|48df6a71-2f4e-4717-b4b1-af7eed40c6bf
+F:\PSoCCreatorSetup\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|a579d519-13d7-4cc3-83a5-2dc6fa38f27c
+F:\PSoCCreatorSetup\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|bca06216-048b-4a2d-80a8-a9aaa10db8ab
