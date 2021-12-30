@@ -1,0 +1,72 @@
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/CortexM3/ARM_GCC_541/Debug/main.o : C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/CYDMAC.H C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/CYFITTER.H C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/CyDmac.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/DVDAC.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/DVDAC_DMA_dma.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/DVDAC_IntClock.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/DVDAC_VDAC8.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/LED.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/LED_aliases.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/Timer.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/UART.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/UART_IntClock.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/Vout.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/Vout_aliases.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cmsis_armcc.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cmsis_compiler.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cmsis_gcc.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/core_cm3.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cydisabledsheets.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/isr.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/project.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/main.c C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/myDAC.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/sin_tab.h C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/timing.h 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/CYDMAC.H : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/CYFITTER.H : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/CyLib.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/CySpc.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/DVDAC.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/DVDAC_DMA_dma.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/DVDAC_IntClock.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/DVDAC_VDAC8.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/LED.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/LED_aliases.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/Timer.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/UART.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/UART_IntClock.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/Vout.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/Vout_aliases.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cmsis_armcc.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cmsis_compiler.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cmsis_gcc.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/core_cm3.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cyPm.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cydevice.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cydisabledsheets.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cypins.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/cytypes.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/isr.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/Generated_Source/PSoC5/project.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/main.c : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/myDAC.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/sin_tab.h : 
+
+C:/Users/slavi/Documents/PSoC\ Creator/CourseWork_Mentukh/Design01.cydsn/timing.h : 
+
