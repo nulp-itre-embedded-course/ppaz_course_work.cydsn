@@ -1,0 +1,1345 @@
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 816
+  28              	cy_meta_configecc:
+  29 0000 02       		.byte	2
+  30 0001 4F       		.byte	79
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 01       		.byte	1
+  34 0005 5A       		.byte	90
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 03       		.byte	3
+  38 0009 65       		.byte	101
+  39 000a 00       		.byte	0
+  40 000b 40       		.byte	64
+  41 000c 04       		.byte	4
+  42 000d 06       		.byte	6
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 02       		.byte	2
+  46 0011 07       		.byte	7
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 01       		.byte	1
+  50 0015 15       		.byte	21
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 67       		.byte	103
+  54 0019 18       		.byte	24
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 3B       		.byte	59
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 2
+
+
+  58 001d 19       		.byte	25
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 0F       		.byte	15
+  62 0021 1A       		.byte	26
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 44       		.byte	68
+  66 0025 1B       		.byte	27
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 02       		.byte	2
+  70 0029 40       		.byte	64
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 01       		.byte	1
+  74 002d 41       		.byte	65
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 01       		.byte	1
+  78 0031 42       		.byte	66
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 05       		.byte	5
+  82 0035 43       		.byte	67
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 02       		.byte	2
+  86 0039 47       		.byte	71
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 04       		.byte	4
+  90 003d 48       		.byte	72
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 01       		.byte	1
+  94 0041 49       		.byte	73
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 01       		.byte	1
+  98 0045 4C       		.byte	76
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 0A       		.byte	10
+ 102 0049 4D       		.byte	77
+ 103 004a 01       		.byte	1
+ 104 004b 40       		.byte	64
+ 105 004c 02       		.byte	2
+ 106 004d 50       		.byte	80
+ 107 004e 01       		.byte	1
+ 108 004f 40       		.byte	64
+ 109 0050 01       		.byte	1
+ 110 0051 51       		.byte	81
+ 111 0052 01       		.byte	1
+ 112 0053 40       		.byte	64
+ 113 0054 01       		.byte	1
+ 114 0055 80       		.byte	-128
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 3
+
+
+ 115 0056 0A       		.byte	10
+ 116 0057 27       		.byte	39
+ 117 0058 9F       		.byte	-97
+ 118 0059 01       		.byte	1
+ 119 005a 89       		.byte	-119
+ 120 005b 72       		.byte	114
+ 121 005c 8A       		.byte	-118
+ 122 005d 0F       		.byte	15
+ 123 005e 8B       		.byte	-117
+ 124 005f 38       		.byte	56
+ 125 0060 B8       		.byte	-72
+ 126 0061 02       		.byte	2
+ 127 0062 BE       		.byte	-66
+ 128 0063 01       		.byte	1
+ 129 0064 D8       		.byte	-40
+ 130 0065 04       		.byte	4
+ 131 0066 DF       		.byte	-33
+ 132 0067 01       		.byte	1
+ 133 0068 1A       		.byte	26
+ 134 0069 80       		.byte	-128
+ 135 006a 82       		.byte	-126
+ 136 006b 40       		.byte	64
+ 137 006c EC       		.byte	-20
+ 138 006d 20       		.byte	32
+ 139 006e 06       		.byte	6
+ 140 006f 03       		.byte	3
+ 141 0070 07       		.byte	7
+ 142 0071 08       		.byte	8
+ 143 0072 08       		.byte	8
+ 144 0073 14       		.byte	20
+ 145 0074 09       		.byte	9
+ 146 0075 80       		.byte	-128
+ 147 0076 0B       		.byte	11
+ 148 0077 13       		.byte	19
+ 149 0078 0C       		.byte	12
+ 150 0079 09       		.byte	9
+ 151 007a 0E       		.byte	14
+ 152 007b D0       		.byte	-48
+ 153 007c 11       		.byte	17
+ 154 007d 71       		.byte	113
+ 155 007e 13       		.byte	19
+ 156 007f 06       		.byte	6
+ 157 0080 15       		.byte	21
+ 158 0081 2C       		.byte	44
+ 159 0082 16       		.byte	22
+ 160 0083 20       		.byte	32
+ 161 0084 17       		.byte	23
+ 162 0085 43       		.byte	67
+ 163 0086 1C       		.byte	28
+ 164 0087 0C       		.byte	12
+ 165 0088 1E       		.byte	30
+ 166 0089 71       		.byte	113
+ 167 008a 20       		.byte	32
+ 168 008b 10       		.byte	16
+ 169 008c 21       		.byte	33
+ 170 008d 71       		.byte	113
+ 171 008e 22       		.byte	34
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 4
+
+
+ 172 008f AC       		.byte	-84
+ 173 0090 23       		.byte	35
+ 174 0091 0E       		.byte	14
+ 175 0092 24       		.byte	36
+ 176 0093 DC       		.byte	-36
+ 177 0094 26       		.byte	38
+ 178 0095 22       		.byte	34
+ 179 0096 28       		.byte	40
+ 180 0097 10       		.byte	16
+ 181 0098 2A       		.byte	42
+ 182 0099 40       		.byte	64
+ 183 009a 2F       		.byte	47
+ 184 009b 0C       		.byte	12
+ 185 009c 32       		.byte	50
+ 186 009d 1F       		.byte	31
+ 187 009e 33       		.byte	51
+ 188 009f 30       		.byte	48
+ 189 00a0 35       		.byte	53
+ 190 00a1 0F       		.byte	15
+ 191 00a2 36       		.byte	54
+ 192 00a3 E0       		.byte	-32
+ 193 00a4 37       		.byte	55
+ 194 00a5 C0       		.byte	-64
+ 195 00a6 39       		.byte	57
+ 196 00a7 88       		.byte	-120
+ 197 00a8 3A       		.byte	58
+ 198 00a9 80       		.byte	-128
+ 199 00aa 3B       		.byte	59
+ 200 00ab 20       		.byte	32
+ 201 00ac 3F       		.byte	63
+ 202 00ad 04       		.byte	4
+ 203 00ae 40       		.byte	64
+ 204 00af 02       		.byte	2
+ 205 00b0 47       		.byte	71
+ 206 00b1 04       		.byte	4
+ 207 00b2 49       		.byte	73
+ 208 00b3 FF       		.byte	-1
+ 209 00b4 4A       		.byte	74
+ 210 00b5 07       		.byte	7
+ 211 00b6 4B       		.byte	75
+ 212 00b7 FF       		.byte	-1
+ 213 00b8 4C       		.byte	76
+ 214 00b9 40       		.byte	64
+ 215 00ba 4D       		.byte	77
+ 216 00bb 20       		.byte	32
+ 217 00bc 4E       		.byte	78
+ 218 00bd F0       		.byte	-16
+ 219 00be 4F       		.byte	79
+ 220 00bf 05       		.byte	5
+ 221 00c0 50       		.byte	80
+ 222 00c1 08       		.byte	8
+ 223 00c2 58       		.byte	88
+ 224 00c3 04       		.byte	4
+ 225 00c4 59       		.byte	89
+ 226 00c5 04       		.byte	4
+ 227 00c6 5A       		.byte	90
+ 228 00c7 04       		.byte	4
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 5
+
+
+ 229 00c8 5F       		.byte	95
+ 230 00c9 01       		.byte	1
+ 231 00ca 60       		.byte	96
+ 232 00cb 40       		.byte	64
+ 233 00cc 61       		.byte	97
+ 234 00cd A8       		.byte	-88
+ 235 00ce 62       		.byte	98
+ 236 00cf 40       		.byte	64
+ 237 00d0 63       		.byte	99
+ 238 00d1 20       		.byte	32
+ 239 00d2 80       		.byte	-128
+ 240 00d3 09       		.byte	9
+ 241 00d4 82       		.byte	-126
+ 242 00d5 A6       		.byte	-90
+ 243 00d6 83       		.byte	-125
+ 244 00d7 08       		.byte	8
+ 245 00d8 85       		.byte	-123
+ 246 00d9 20       		.byte	32
+ 247 00da 89       		.byte	-119
+ 248 00db 20       		.byte	32
+ 249 00dc 8C       		.byte	-116
+ 250 00dd 12       		.byte	18
+ 251 00de 8D       		.byte	-115
+ 252 00df 13       		.byte	19
+ 253 00e0 8E       		.byte	-114
+ 254 00e1 85       		.byte	-123
+ 255 00e2 8F       		.byte	-113
+ 256 00e3 04       		.byte	4
+ 257 00e4 91       		.byte	-111
+ 258 00e5 20       		.byte	32
+ 259 00e6 95       		.byte	-107
+ 260 00e7 0A       		.byte	10
+ 261 00e8 97       		.byte	-105
+ 262 00e9 14       		.byte	20
+ 263 00ea 98       		.byte	-104
+ 264 00eb 04       		.byte	4
+ 265 00ec 99       		.byte	-103
+ 266 00ed 03       		.byte	3
+ 267 00ee 9A       		.byte	-102
+ 268 00ef 58       		.byte	88
+ 269 00f0 9B       		.byte	-101
+ 270 00f1 14       		.byte	20
+ 271 00f2 A4       		.byte	-92
+ 272 00f3 1F       		.byte	31
+ 273 00f4 A7       		.byte	-89
+ 274 00f5 15       		.byte	21
+ 275 00f6 A8       		.byte	-88
+ 276 00f7 1F       		.byte	31
+ 277 00f8 AD       		.byte	-83
+ 278 00f9 13       		.byte	19
+ 279 00fa AF       		.byte	-81
+ 280 00fb 0C       		.byte	12
+ 281 00fc B0       		.byte	-80
+ 282 00fd 03       		.byte	3
+ 283 00fe B1       		.byte	-79
+ 284 00ff 0F       		.byte	15
+ 285 0100 B2       		.byte	-78
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 6
+
+
+ 286 0101 C0       		.byte	-64
+ 287 0102 B3       		.byte	-77
+ 288 0103 10       		.byte	16
+ 289 0104 B4       		.byte	-76
+ 290 0105 1C       		.byte	28
+ 291 0106 B5       		.byte	-75
+ 292 0107 20       		.byte	32
+ 293 0108 B6       		.byte	-74
+ 294 0109 20       		.byte	32
+ 295 010a BB       		.byte	-69
+ 296 010b 02       		.byte	2
+ 297 010c BE       		.byte	-66
+ 298 010d 04       		.byte	4
+ 299 010e BF       		.byte	-65
+ 300 010f 04       		.byte	4
+ 301 0110 C0       		.byte	-64
+ 302 0111 13       		.byte	19
+ 303 0112 C1       		.byte	-63
+ 304 0113 05       		.byte	5
+ 305 0114 C5       		.byte	-59
+ 306 0115 0C       		.byte	12
+ 307 0116 C6       		.byte	-58
+ 308 0117 E0       		.byte	-32
+ 309 0118 C7       		.byte	-57
+ 310 0119 0B       		.byte	11
+ 311 011a C8       		.byte	-56
+ 312 011b 19       		.byte	25
+ 313 011c C9       		.byte	-55
+ 314 011d FF       		.byte	-1
+ 315 011e CA       		.byte	-54
+ 316 011f FF       		.byte	-1
+ 317 0120 CB       		.byte	-53
+ 318 0121 FF       		.byte	-1
+ 319 0122 CE       		.byte	-50
+ 320 0123 F0       		.byte	-16
+ 321 0124 CF       		.byte	-49
+ 322 0125 44       		.byte	68
+ 323 0126 D0       		.byte	-48
+ 324 0127 0C       		.byte	12
+ 325 0128 D6       		.byte	-42
+ 326 0129 02       		.byte	2
+ 327 012a D7       		.byte	-41
+ 328 012b 13       		.byte	19
+ 329 012c D8       		.byte	-40
+ 330 012d 04       		.byte	4
+ 331 012e D9       		.byte	-39
+ 332 012f 04       		.byte	4
+ 333 0130 DA       		.byte	-38
+ 334 0131 04       		.byte	4
+ 335 0132 DB       		.byte	-37
+ 336 0133 04       		.byte	4
+ 337 0134 DF       		.byte	-33
+ 338 0135 01       		.byte	1
+ 339 0136 E6       		.byte	-26
+ 340 0137 C0       		.byte	-64
+ 341 0138 EA       		.byte	-22
+ 342 0139 40       		.byte	64
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 7
+
+
+ 343 013a EB       		.byte	-21
+ 344 013b 02       		.byte	2
+ 345 013c 00       		.byte	0
+ 346 013d 42       		.byte	66
+ 347 013e 05       		.byte	5
+ 348 013f 84       		.byte	-124
+ 349 0140 06       		.byte	6
+ 350 0141 04       		.byte	4
+ 351 0142 07       		.byte	7
+ 352 0143 02       		.byte	2
+ 353 0144 0A       		.byte	10
+ 354 0145 04       		.byte	4
+ 355 0146 0E       		.byte	14
+ 356 0147 01       		.byte	1
+ 357 0148 0F       		.byte	15
+ 358 0149 20       		.byte	32
+ 359 014a 11       		.byte	17
+ 360 014b 14       		.byte	20
+ 361 014c 15       		.byte	21
+ 362 014d 02       		.byte	2
+ 363 014e 16       		.byte	22
+ 364 014f 08       		.byte	8
+ 365 0150 17       		.byte	23
+ 366 0151 04       		.byte	4
+ 367 0152 18       		.byte	24
+ 368 0153 50       		.byte	80
+ 369 0154 1A       		.byte	26
+ 370 0155 0E       		.byte	14
+ 371 0156 1D       		.byte	29
+ 372 0157 04       		.byte	4
+ 373 0158 1E       		.byte	30
+ 374 0159 01       		.byte	1
+ 375 015a 1F       		.byte	31
+ 376 015b 48       		.byte	72
+ 377 015c 21       		.byte	33
+ 378 015d 11       		.byte	17
+ 379 015e 22       		.byte	34
+ 380 015f 0A       		.byte	10
+ 381 0160 24       		.byte	36
+ 382 0161 02       		.byte	2
+ 383 0162 27       		.byte	39
+ 384 0163 2E       		.byte	46
+ 385 0164 28       		.byte	40
+ 386 0165 01       		.byte	1
+ 387 0166 2B       		.byte	43
+ 388 0167 10       		.byte	16
+ 389 0168 2D       		.byte	45
+ 390 0169 80       		.byte	-128
+ 391 016a 2F       		.byte	47
+ 392 016b 40       		.byte	64
+ 393 016c 32       		.byte	50
+ 394 016d 20       		.byte	32
+ 395 016e 33       		.byte	51
+ 396 016f 15       		.byte	21
+ 397 0170 34       		.byte	52
+ 398 0171 03       		.byte	3
+ 399 0172 36       		.byte	54
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 8
+
+
+ 400 0173 02       		.byte	2
+ 401 0174 37       		.byte	55
+ 402 0175 08       		.byte	8
+ 403 0176 38       		.byte	56
+ 404 0177 02       		.byte	2
+ 405 0178 39       		.byte	57
+ 406 0179 14       		.byte	20
+ 407 017a 3B       		.byte	59
+ 408 017b 80       		.byte	-128
+ 409 017c 3E       		.byte	62
+ 410 017d 08       		.byte	8
+ 411 017e 3F       		.byte	63
+ 412 017f 20       		.byte	32
+ 413 0180 40       		.byte	64
+ 414 0181 02       		.byte	2
+ 415 0182 42       		.byte	66
+ 416 0183 20       		.byte	32
+ 417 0184 47       		.byte	71
+ 418 0185 20       		.byte	32
+ 419 0186 4A       		.byte	74
+ 420 0187 20       		.byte	32
+ 421 0188 4B       		.byte	75
+ 422 0189 80       		.byte	-128
+ 423 018a 52       		.byte	82
+ 424 018b 04       		.byte	4
+ 425 018c 53       		.byte	83
+ 426 018d 10       		.byte	16
+ 427 018e 56       		.byte	86
+ 428 018f 28       		.byte	40
+ 429 0190 57       		.byte	87
+ 430 0191 10       		.byte	16
+ 431 0192 59       		.byte	89
+ 432 0193 02       		.byte	2
+ 433 0194 69       		.byte	105
+ 434 0195 14       		.byte	20
+ 435 0196 6B       		.byte	107
+ 436 0197 01       		.byte	1
+ 437 0198 70       		.byte	112
+ 438 0199 80       		.byte	-128
+ 439 019a 73       		.byte	115
+ 440 019b 14       		.byte	20
+ 441 019c 8C       		.byte	-116
+ 442 019d 48       		.byte	72
+ 443 019e 8E       		.byte	-114
+ 444 019f 48       		.byte	72
+ 445 01a0 C0       		.byte	-64
+ 446 01a1 E9       		.byte	-23
+ 447 01a2 C2       		.byte	-62
+ 448 01a3 A2       		.byte	-94
+ 449 01a4 C4       		.byte	-60
+ 450 01a5 76       		.byte	118
+ 451 01a6 CA       		.byte	-54
+ 452 01a7 9A       		.byte	-102
+ 453 01a8 CC       		.byte	-52
+ 454 01a9 C7       		.byte	-57
+ 455 01aa CE       		.byte	-50
+ 456 01ab 6F       		.byte	111
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 9
+
+
+ 457 01ac D0       		.byte	-48
+ 458 01ad 2A       		.byte	42
+ 459 01ae D2       		.byte	-46
+ 460 01af 08       		.byte	8
+ 461 01b0 D6       		.byte	-42
+ 462 01b1 01       		.byte	1
+ 463 01b2 87       		.byte	-121
+ 464 01b3 04       		.byte	4
+ 465 01b4 93       		.byte	-109
+ 466 01b5 02       		.byte	2
+ 467 01b6 97       		.byte	-105
+ 468 01b7 02       		.byte	2
+ 469 01b8 A7       		.byte	-89
+ 470 01b9 04       		.byte	4
+ 471 01ba A9       		.byte	-87
+ 472 01bb 01       		.byte	1
+ 473 01bc B1       		.byte	-79
+ 474 01bd 01       		.byte	1
+ 475 01be B3       		.byte	-77
+ 476 01bf 04       		.byte	4
+ 477 01c0 B7       		.byte	-73
+ 478 01c1 02       		.byte	2
+ 479 01c2 BA       		.byte	-70
+ 480 01c3 08       		.byte	8
+ 481 01c4 BF       		.byte	-65
+ 482 01c5 45       		.byte	69
+ 483 01c6 D4       		.byte	-44
+ 484 01c7 18       		.byte	24
+ 485 01c8 D8       		.byte	-40
+ 486 01c9 04       		.byte	4
+ 487 01ca D9       		.byte	-39
+ 488 01cb 04       		.byte	4
+ 489 01cc DB       		.byte	-37
+ 490 01cd 04       		.byte	4
+ 491 01ce DF       		.byte	-33
+ 492 01cf 01       		.byte	1
+ 493 01d0 00       		.byte	0
+ 494 01d1 26       		.byte	38
+ 495 01d2 01       		.byte	1
+ 496 01d3 C0       		.byte	-64
+ 497 01d4 09       		.byte	9
+ 498 01d5 02       		.byte	2
+ 499 01d6 0A       		.byte	10
+ 500 01d7 06       		.byte	6
+ 501 01d8 0B       		.byte	11
+ 502 01d9 20       		.byte	32
+ 503 01da 10       		.byte	16
+ 504 01db 80       		.byte	-128
+ 505 01dc 12       		.byte	18
+ 506 01dd 14       		.byte	20
+ 507 01de 13       		.byte	19
+ 508 01df 14       		.byte	20
+ 509 01e0 18       		.byte	24
+ 510 01e1 04       		.byte	4
+ 511 01e2 19       		.byte	25
+ 512 01e3 96       		.byte	-106
+ 513 01e4 1C       		.byte	28
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 10
+
+
+ 514 01e5 20       		.byte	32
+ 515 01e6 20       		.byte	32
+ 516 01e7 08       		.byte	8
+ 517 01e8 21       		.byte	33
+ 518 01e9 02       		.byte	2
+ 519 01ea 22       		.byte	34
+ 520 01eb 08       		.byte	8
+ 521 01ec 23       		.byte	35
+ 522 01ed 41       		.byte	65
+ 523 01ee 25       		.byte	37
+ 524 01ef 09       		.byte	9
+ 525 01f0 27       		.byte	39
+ 526 01f1 01       		.byte	1
+ 527 01f2 28       		.byte	40
+ 528 01f3 0A       		.byte	10
+ 529 01f4 2A       		.byte	42
+ 530 01f5 08       		.byte	8
+ 531 01f6 2B       		.byte	43
+ 532 01f7 80       		.byte	-128
+ 533 01f8 2F       		.byte	47
+ 534 01f9 28       		.byte	40
+ 535 01fa 30       		.byte	48
+ 536 01fb 80       		.byte	-128
+ 537 01fc 31       		.byte	49
+ 538 01fd 12       		.byte	18
+ 539 01fe 32       		.byte	50
+ 540 01ff 04       		.byte	4
+ 541 0200 36       		.byte	54
+ 542 0201 0A       		.byte	10
+ 543 0202 39       		.byte	57
+ 544 0203 40       		.byte	64
+ 545 0204 3A       		.byte	58
+ 546 0205 14       		.byte	20
+ 547 0206 3C       		.byte	60
+ 548 0207 08       		.byte	8
+ 549 0208 40       		.byte	64
+ 550 0209 12       		.byte	18
+ 551 020a 41       		.byte	65
+ 552 020b 10       		.byte	16
+ 553 020c 42       		.byte	66
+ 554 020d 0D       		.byte	13
+ 555 020e 45       		.byte	69
+ 556 020f 08       		.byte	8
+ 557 0210 46       		.byte	70
+ 558 0211 A0       		.byte	-96
+ 559 0212 47       		.byte	71
+ 560 0213 01       		.byte	1
+ 561 0214 4A       		.byte	74
+ 562 0215 08       		.byte	8
+ 563 0216 4B       		.byte	75
+ 564 0217 40       		.byte	64
+ 565 0218 52       		.byte	82
+ 566 0219 02       		.byte	2
+ 567 021a 53       		.byte	83
+ 568 021b 20       		.byte	32
+ 569 021c 59       		.byte	89
+ 570 021d 04       		.byte	4
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 11
+
+
+ 571 021e 5A       		.byte	90
+ 572 021f 40       		.byte	64
+ 573 0220 5B       		.byte	91
+ 574 0221 12       		.byte	18
+ 575 0222 5F       		.byte	95
+ 576 0223 01       		.byte	1
+ 577 0224 66       		.byte	102
+ 578 0225 A0       		.byte	-96
+ 579 0226 88       		.byte	-120
+ 580 0227 11       		.byte	17
+ 581 0228 8A       		.byte	-118
+ 582 0229 01       		.byte	1
+ 583 022a 8B       		.byte	-117
+ 584 022b 92       		.byte	-110
+ 585 022c 8D       		.byte	-115
+ 586 022d 01       		.byte	1
+ 587 022e 90       		.byte	-112
+ 588 022f 10       		.byte	16
+ 589 0230 91       		.byte	-111
+ 590 0231 20       		.byte	32
+ 591 0232 92       		.byte	-110
+ 592 0233 4A       		.byte	74
+ 593 0234 93       		.byte	-109
+ 594 0235 34       		.byte	52
+ 595 0236 98       		.byte	-104
+ 596 0237 08       		.byte	8
+ 597 0238 9B       		.byte	-101
+ 598 0239 10       		.byte	16
+ 599 023a 9D       		.byte	-99
+ 600 023b 02       		.byte	2
+ 601 023c A0       		.byte	-96
+ 602 023d 80       		.byte	-128
+ 603 023e A3       		.byte	-93
+ 604 023f 08       		.byte	8
+ 605 0240 A4       		.byte	-92
+ 606 0241 01       		.byte	1
+ 607 0242 C0       		.byte	-64
+ 608 0243 0F       		.byte	15
+ 609 0244 C2       		.byte	-62
+ 610 0245 0F       		.byte	15
+ 611 0246 C4       		.byte	-60
+ 612 0247 0E       		.byte	14
+ 613 0248 CA       		.byte	-54
+ 614 0249 6F       		.byte	111
+ 615 024a CC       		.byte	-52
+ 616 024b CF       		.byte	-49
+ 617 024c CE       		.byte	-50
+ 618 024d 4E       		.byte	78
+ 619 024e D0       		.byte	-48
+ 620 024f 0E       		.byte	14
+ 621 0250 D2       		.byte	-46
+ 622 0251 0C       		.byte	12
+ 623 0252 D6       		.byte	-42
+ 624 0253 8F       		.byte	-113
+ 625 0254 D8       		.byte	-40
+ 626 0255 30       		.byte	48
+ 627 0256 EC       		.byte	-20
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 12
+
+
+ 628 0257 20       		.byte	32
+ 629 0258 3F       		.byte	63
+ 630 0259 40       		.byte	64
+ 631 025a CE       		.byte	-50
+ 632 025b 20       		.byte	32
+ 633 025c 97       		.byte	-105
+ 634 025d 40       		.byte	64
+ 635 025e 97       		.byte	-105
+ 636 025f 40       		.byte	64
+ 637 0260 6B       		.byte	107
+ 638 0261 40       		.byte	64
+ 639 0262 83       		.byte	-125
+ 640 0263 40       		.byte	64
+ 641 0264 97       		.byte	-105
+ 642 0265 40       		.byte	64
+ 643 0266 DC       		.byte	-36
+ 644 0267 20       		.byte	32
+ 645 0268 E6       		.byte	-26
+ 646 0269 80       		.byte	-128
+ 647 026a 30       		.byte	48
+ 648 026b 20       		.byte	32
+ 649 026c CC       		.byte	-52
+ 650 026d 08       		.byte	8
+ 651 026e 20       		.byte	32
+ 652 026f 80       		.byte	-128
+ 653 0270 23       		.byte	35
+ 654 0271 40       		.byte	64
+ 655 0272 97       		.byte	-105
+ 656 0273 40       		.byte	64
+ 657 0274 C8       		.byte	-56
+ 658 0275 40       		.byte	64
+ 659 0276 B0       		.byte	-80
+ 660 0277 40       		.byte	64
+ 661 0278 A4       		.byte	-92
+ 662 0279 20       		.byte	32
+ 663 027a 10       		.byte	16
+ 664 027b 40       		.byte	64
+ 665 027c 75       		.byte	117
+ 666 027d 04       		.byte	4
+ 667 027e 88       		.byte	-120
+ 668 027f 40       		.byte	64
+ 669 0280 8D       		.byte	-115
+ 670 0281 04       		.byte	4
+ 671 0282 B0       		.byte	-80
+ 672 0283 20       		.byte	32
+ 673 0284 C4       		.byte	-60
+ 674 0285 08       		.byte	8
+ 675 0286 DE       		.byte	-34
+ 676 0287 04       		.byte	4
+ 677 0288 E0       		.byte	-32
+ 678 0289 08       		.byte	8
+ 679 028a E2       		.byte	-30
+ 680 028b 01       		.byte	1
+ 681 028c EC       		.byte	-20
+ 682 028d 04       		.byte	4
+ 683 028e 10       		.byte	16
+ 684 028f 01       		.byte	1
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 13
+
+
+ 685 0290 1C       		.byte	28
+ 686 0291 01       		.byte	1
+ 687 0292 10       		.byte	16
+ 688 0293 02       		.byte	2
+ 689 0294 80       		.byte	-128
+ 690 0295 80       		.byte	-128
+ 691 0296 00       		.byte	0
+ 692 0297 00       		.byte	0
+ 693 0298 40       		.byte	64
+ 694 0299 00       		.byte	0
+ 695 029a 00       		.byte	0
+ 696 029b 00       		.byte	0
+ 697 029c 04       		.byte	4
+ 698 029d 00       		.byte	0
+ 699 029e 00       		.byte	0
+ 700 029f 00       		.byte	0
+ 701 02a0 3C       		.byte	60
+ 702 02a1 0C       		.byte	12
+ 703 02a2 42       		.byte	66
+ 704 02a3 00       		.byte	0
+ 705 02a4 7F       		.byte	127
+ 706 02a5 04       		.byte	4
+ 707 02a6 00       		.byte	0
+ 708 02a7 00       		.byte	0
+ 709 02a8 3C       		.byte	60
+ 710 02a9 0F       		.byte	15
+ 711 02aa 41       		.byte	65
+ 712 02ab F0       		.byte	-16
+ 713 02ac 67       		.byte	103
+ 714 02ad F3       		.byte	-13
+ 715 02ae 18       		.byte	24
+ 716 02af 0C       		.byte	12
+ 717 02b0 80       		.byte	-128
+ 718 02b1 63       		.byte	99
+ 719 02b2 00       		.byte	0
+ 720 02b3 00       		.byte	0
+ 721 02b4 00       		.byte	0
+ 722 02b5 1C       		.byte	28
+ 723 02b6 43       		.byte	67
+ 724 02b7 E3       		.byte	-29
+ 725 02b8 00       		.byte	0
+ 726 02b9 08       		.byte	8
+ 727 02ba 04       		.byte	4
+ 728 02bb 00       		.byte	0
+ 729 02bc 10       		.byte	16
+ 730 02bd 21       		.byte	33
+ 731 02be 00       		.byte	0
+ 732 02bf 00       		.byte	0
+ 733 02c0 08       		.byte	8
+ 734 02c1 00       		.byte	0
+ 735 02c2 00       		.byte	0
+ 736 02c3 73       		.byte	115
+ 737 02c4 18       		.byte	24
+ 738 02c5 42       		.byte	66
+ 739 02c6 00       		.byte	0
+ 740 02c7 00       		.byte	0
+ 741 02c8 00       		.byte	0
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 14
+
+
+ 742 02c9 FF       		.byte	-1
+ 743 02ca 00       		.byte	0
+ 744 02cb 00       		.byte	0
+ 745 02cc 20       		.byte	32
+ 746 02cd 0F       		.byte	15
+ 747 02ce 80       		.byte	-128
+ 748 02cf 1C       		.byte	28
+ 749 02d0 1F       		.byte	31
+ 750 02d1 80       		.byte	-128
+ 751 02d2 58       		.byte	88
+ 752 02d3 60       		.byte	96
+ 753 02d4 00       		.byte	0
+ 754 02d5 20       		.byte	32
+ 755 02d6 A0       		.byte	-96
+ 756 02d7 02       		.byte	2
+ 757 02d8 00       		.byte	0
+ 758 02d9 00       		.byte	0
+ 759 02da 05       		.byte	5
+ 760 02db 00       		.byte	0
+ 761 02dc 52       		.byte	82
+ 762 02dd 01       		.byte	1
+ 763 02de 06       		.byte	6
+ 764 02df 00       		.byte	0
+ 765 02e0 03       		.byte	3
+ 766 02e1 00       		.byte	0
+ 767 02e2 E0       		.byte	-32
+ 768 02e3 C0       		.byte	-64
+ 769 02e4 28       		.byte	40
+ 770 02e5 FF       		.byte	-1
+ 771 02e6 FF       		.byte	-1
+ 772 02e7 FF       		.byte	-1
+ 773 02e8 62       		.byte	98
+ 774 02e9 A0       		.byte	-96
+ 775 02ea F0       		.byte	-16
+ 776 02eb 41       		.byte	65
+ 777 02ec 0C       		.byte	12
+ 778 02ed 00       		.byte	0
+ 779 02ee 00       		.byte	0
+ 780 02ef 00       		.byte	0
+ 781 02f0 01       		.byte	1
+ 782 02f1 00       		.byte	0
+ 783 02f2 00       		.byte	0
+ 784 02f3 00       		.byte	0
+ 785 02f4 04       		.byte	4
+ 786 02f5 04       		.byte	4
+ 787 02f6 04       		.byte	4
+ 788 02f7 04       		.byte	4
+ 789 02f8 00       		.byte	0
+ 790 02f9 00       		.byte	0
+ 791 02fa 00       		.byte	0
+ 792 02fb 01       		.byte	1
+ 793 02fc 00       		.byte	0
+ 794 02fd 00       		.byte	0
+ 795 02fe 00       		.byte	0
+ 796 02ff 00       		.byte	0
+ 797 0300 00       		.byte	0
+ 798 0301 00       		.byte	0
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 15
+
+
+ 799 0302 40       		.byte	64
+ 800 0303 02       		.byte	2
+ 801 0304 00       		.byte	0
+ 802 0305 10       		.byte	16
+ 803 0306 30       		.byte	48
+ 804 0307 10       		.byte	16
+ 805 0308 00       		.byte	0
+ 806 0309 10       		.byte	16
+ 807 030a 10       		.byte	16
+ 808 030b 12       		.byte	18
+ 809 030c 00       		.byte	0
+ 810 030d 00       		.byte	0
+ 811 030e 00       		.byte	0
+ 812 030f 00       		.byte	0
+ 813 0310 00       		.byte	0
+ 814 0311 00       		.byte	0
+ 815 0312 00       		.byte	0
+ 816 0313 00       		.byte	0
+ 817 0314 00       		.byte	0
+ 818 0315 00       		.byte	0
+ 819 0316 00       		.byte	0
+ 820 0317 00       		.byte	0
+ 821 0318 00       		.byte	0
+ 822 0319 00       		.byte	0
+ 823 031a 00       		.byte	0
+ 824 031b 00       		.byte	0
+ 825 031c 80       		.byte	-128
+ 826 031d 00       		.byte	0
+ 827 031e 40       		.byte	64
+ 828 031f 80       		.byte	-128
+ 829 0320 80       		.byte	-128
+ 830 0321 00       		.byte	0
+ 831 0322 80       		.byte	-128
+ 832 0323 00       		.byte	0
+ 833 0324 00       		.byte	0
+ 834 0325 00       		.byte	0
+ 835 0326 00       		.byte	0
+ 836 0327 00       		.byte	0
+ 837 0328 00       		.byte	0
+ 838 0329 0B       		.byte	11
+ 839 032a 0B       		.byte	11
+ 840 032b 00       		.byte	0
+ 841 032c 00       		.byte	0
+ 842 032d 00       		.byte	0
+ 843 032e 80       		.byte	-128
+ 844 032f 00       		.byte	0
+ 845              		.section	.cywolatch,"a",%progbits
+ 846              		.align	2
+ 847              		.type	cy_meta_wonvl, %object
+ 848              		.size	cy_meta_wonvl, 4
+ 849              	cy_meta_wonvl:
+ 850 0000 BC       		.byte	-68
+ 851 0001 90       		.byte	-112
+ 852 0002 AC       		.byte	-84
+ 853 0003 AF       		.byte	-81
+ 854              		.section	.cycustnvl,"a",%progbits
+ 855              		.align	2
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 16
+
+
+ 856              		.type	cy_meta_custnvl, %object
+ 857              		.size	cy_meta_custnvl, 4
+ 858              	cy_meta_custnvl:
+ 859 0000 00       		.byte	0
+ 860 0001 00       		.byte	0
+ 861 0002 40       		.byte	64
+ 862 0003 05       		.byte	5
+ 863              		.section	.cymeta,"a",%progbits
+ 864              		.align	2
+ 865              		.type	cy_metadata, %object
+ 866              		.size	cy_metadata, 12
+ 867              	cy_metadata:
+ 868 0000 00       		.byte	0
+ 869 0001 01       		.byte	1
+ 870 0002 2E       		.byte	46
+ 871 0003 16       		.byte	22
+ 872 0004 10       		.byte	16
+ 873 0005 69       		.byte	105
+ 874 0006 00       		.byte	0
+ 875 0007 01       		.byte	1
+ 876 0008 00       		.byte	0
+ 877 0009 00       		.byte	0
+ 878 000a 00       		.byte	0
+ 879 000b 00       		.byte	0
+ 880              		.section	.cyflashprotect,"a",%progbits
+ 881              		.align	2
+ 882              		.type	cy_meta_flashprotect, %object
+ 883              		.size	cy_meta_flashprotect, 256
+ 884              	cy_meta_flashprotect:
+ 885 0000 00000000 		.space	256
+ 885      00000000 
+ 885      00000000 
+ 885      00000000 
+ 885      00000000 
+ 886              		.text
+ 887              	.Letext0:
+ 888              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 889              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 890              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 891              		.section	.debug_info,"",%progbits
+ 892              	.Ldebug_info0:
+ 893 0000 31010000 		.4byte	0x131
+ 894 0004 0400     		.2byte	0x4
+ 895 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 896 000a 04       		.byte	0x4
+ 897 000b 01       		.uleb128 0x1
+ 898 000c 24000000 		.4byte	.LASF17
+ 899 0010 0C       		.byte	0xc
+ 900 0011 B7010000 		.4byte	.LASF18
+ 901 0015 69010000 		.4byte	.LASF19
+ 902 0019 00000000 		.4byte	.Ldebug_line0
+ 903 001d 02       		.uleb128 0x2
+ 904 001e 01       		.byte	0x1
+ 905 001f 06       		.byte	0x6
+ 906 0020 AB010000 		.4byte	.LASF0
+ 907 0024 03       		.uleb128 0x3
+ 908 0025 00000000 		.4byte	.LASF9
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 17
+
+
+ 909 0029 01       		.byte	0x1
+ 910 002a 1D       		.byte	0x1d
+ 911 002b 2F000000 		.4byte	0x2f
+ 912 002f 02       		.uleb128 0x2
+ 913 0030 01       		.byte	0x1
+ 914 0031 08       		.byte	0x8
+ 915 0032 16000000 		.4byte	.LASF1
+ 916 0036 02       		.uleb128 0x2
+ 917 0037 02       		.byte	0x2
+ 918 0038 05       		.byte	0x5
+ 919 0039 5F010000 		.4byte	.LASF2
+ 920 003d 02       		.uleb128 0x2
+ 921 003e 02       		.byte	0x2
+ 922 003f 07       		.byte	0x7
+ 923 0040 C4000000 		.4byte	.LASF3
+ 924 0044 02       		.uleb128 0x2
+ 925 0045 04       		.byte	0x4
+ 926 0046 05       		.byte	0x5
+ 927 0047 A2010000 		.4byte	.LASF4
+ 928 004b 02       		.uleb128 0x2
+ 929 004c 04       		.byte	0x4
+ 930 004d 07       		.byte	0x7
+ 931 004e B2000000 		.4byte	.LASF5
+ 932 0052 02       		.uleb128 0x2
+ 933 0053 08       		.byte	0x8
+ 934 0054 05       		.byte	0x5
+ 935 0055 51010000 		.4byte	.LASF6
+ 936 0059 02       		.uleb128 0x2
+ 937 005a 08       		.byte	0x8
+ 938 005b 07       		.byte	0x7
+ 939 005c 06010000 		.4byte	.LASF7
+ 940 0060 04       		.uleb128 0x4
+ 941 0061 04       		.byte	0x4
+ 942 0062 05       		.byte	0x5
+ 943 0063 696E7400 		.ascii	"int\000"
+ 944 0067 02       		.uleb128 0x2
+ 945 0068 04       		.byte	0x4
+ 946 0069 07       		.byte	0x7
+ 947 006a F9000000 		.4byte	.LASF8
+ 948 006e 03       		.uleb128 0x3
+ 949 006f 1D010000 		.4byte	.LASF10
+ 950 0073 02       		.byte	0x2
+ 951 0074 18       		.byte	0x18
+ 952 0075 24000000 		.4byte	0x24
+ 953 0079 05       		.uleb128 0x5
+ 954 007a 91000000 		.4byte	0x91
+ 955 007e 8A000000 		.4byte	0x8a
+ 956 0082 06       		.uleb128 0x6
+ 957 0083 8A000000 		.4byte	0x8a
+ 958 0087 2F03     		.2byte	0x32f
+ 959 0089 00       		.byte	0
+ 960 008a 02       		.uleb128 0x2
+ 961 008b 04       		.byte	0x4
+ 962 008c 07       		.byte	0x7
+ 963 008d 48010000 		.4byte	.LASF11
+ 964 0091 07       		.uleb128 0x7
+ 965 0092 6E000000 		.4byte	0x6e
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 18
+
+
+ 966 0096 08       		.uleb128 0x8
+ 967 0097 E7000000 		.4byte	.LASF12
+ 968 009b 03       		.byte	0x3
+ 969 009c 1F       		.byte	0x1f
+ 970 009d A7000000 		.4byte	0xa7
+ 971 00a1 05       		.uleb128 0x5
+ 972 00a2 03       		.byte	0x3
+ 973 00a3 00000000 		.4byte	cy_meta_configecc
+ 974 00a7 07       		.uleb128 0x7
+ 975 00a8 79000000 		.4byte	0x79
+ 976 00ac 05       		.uleb128 0x5
+ 977 00ad 91000000 		.4byte	0x91
+ 978 00b1 BC000000 		.4byte	0xbc
+ 979 00b5 09       		.uleb128 0x9
+ 980 00b6 8A000000 		.4byte	0x8a
+ 981 00ba 03       		.byte	0x3
+ 982 00bb 00       		.byte	0
+ 983 00bc 08       		.uleb128 0x8
+ 984 00bd D7000000 		.4byte	.LASF13
+ 985 00c1 03       		.byte	0x3
+ 986 00c2 92       		.byte	0x92
+ 987 00c3 CD000000 		.4byte	0xcd
+ 988 00c7 05       		.uleb128 0x5
+ 989 00c8 03       		.byte	0x3
+ 990 00c9 00000000 		.4byte	cy_meta_custnvl
+ 991 00cd 07       		.uleb128 0x7
+ 992 00ce AC000000 		.4byte	0xac
+ 993 00d2 08       		.uleb128 0x8
+ 994 00d3 3A010000 		.4byte	.LASF14
+ 995 00d7 03       		.byte	0x3
+ 996 00d8 A0       		.byte	0xa0
+ 997 00d9 E3000000 		.4byte	0xe3
+ 998 00dd 05       		.uleb128 0x5
+ 999 00de 03       		.byte	0x3
+ 1000 00df 00000000 		.4byte	cy_meta_wonvl
+ 1001 00e3 07       		.uleb128 0x7
+ 1002 00e4 AC000000 		.4byte	0xac
+ 1003 00e8 05       		.uleb128 0x5
+ 1004 00e9 91000000 		.4byte	0x91
+ 1005 00ed F8000000 		.4byte	0xf8
+ 1006 00f1 09       		.uleb128 0x9
+ 1007 00f2 8A000000 		.4byte	0x8a
+ 1008 00f6 FF       		.byte	0xff
+ 1009 00f7 00       		.byte	0
+ 1010 00f8 08       		.uleb128 0x8
+ 1011 00f9 25010000 		.4byte	.LASF15
+ 1012 00fd 03       		.byte	0x3
+ 1013 00fe AE       		.byte	0xae
+ 1014 00ff 09010000 		.4byte	0x109
+ 1015 0103 05       		.uleb128 0x5
+ 1016 0104 03       		.byte	0x3
+ 1017 0105 00000000 		.4byte	cy_meta_flashprotect
+ 1018 0109 07       		.uleb128 0x7
+ 1019 010a E8000000 		.4byte	0xe8
+ 1020 010e 05       		.uleb128 0x5
+ 1021 010f 91000000 		.4byte	0x91
+ 1022 0113 1E010000 		.4byte	0x11e
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 19
+
+
+ 1023 0117 09       		.uleb128 0x9
+ 1024 0118 8A000000 		.4byte	0x8a
+ 1025 011c 0B       		.byte	0xb
+ 1026 011d 00       		.byte	0
+ 1027 011e 08       		.uleb128 0x8
+ 1028 011f 0A000000 		.4byte	.LASF16
+ 1029 0123 03       		.byte	0x3
+ 1030 0124 DB       		.byte	0xdb
+ 1031 0125 2F010000 		.4byte	0x12f
+ 1032 0129 05       		.uleb128 0x5
+ 1033 012a 03       		.byte	0x3
+ 1034 012b 00000000 		.4byte	cy_metadata
+ 1035 012f 07       		.uleb128 0x7
+ 1036 0130 0E010000 		.4byte	0x10e
+ 1037 0134 00       		.byte	0
+ 1038              		.section	.debug_abbrev,"",%progbits
+ 1039              	.Ldebug_abbrev0:
+ 1040 0000 01       		.uleb128 0x1
+ 1041 0001 11       		.uleb128 0x11
+ 1042 0002 01       		.byte	0x1
+ 1043 0003 25       		.uleb128 0x25
+ 1044 0004 0E       		.uleb128 0xe
+ 1045 0005 13       		.uleb128 0x13
+ 1046 0006 0B       		.uleb128 0xb
+ 1047 0007 03       		.uleb128 0x3
+ 1048 0008 0E       		.uleb128 0xe
+ 1049 0009 1B       		.uleb128 0x1b
+ 1050 000a 0E       		.uleb128 0xe
+ 1051 000b 10       		.uleb128 0x10
+ 1052 000c 17       		.uleb128 0x17
+ 1053 000d 00       		.byte	0
+ 1054 000e 00       		.byte	0
+ 1055 000f 02       		.uleb128 0x2
+ 1056 0010 24       		.uleb128 0x24
+ 1057 0011 00       		.byte	0
+ 1058 0012 0B       		.uleb128 0xb
+ 1059 0013 0B       		.uleb128 0xb
+ 1060 0014 3E       		.uleb128 0x3e
+ 1061 0015 0B       		.uleb128 0xb
+ 1062 0016 03       		.uleb128 0x3
+ 1063 0017 0E       		.uleb128 0xe
+ 1064 0018 00       		.byte	0
+ 1065 0019 00       		.byte	0
+ 1066 001a 03       		.uleb128 0x3
+ 1067 001b 16       		.uleb128 0x16
+ 1068 001c 00       		.byte	0
+ 1069 001d 03       		.uleb128 0x3
+ 1070 001e 0E       		.uleb128 0xe
+ 1071 001f 3A       		.uleb128 0x3a
+ 1072 0020 0B       		.uleb128 0xb
+ 1073 0021 3B       		.uleb128 0x3b
+ 1074 0022 0B       		.uleb128 0xb
+ 1075 0023 49       		.uleb128 0x49
+ 1076 0024 13       		.uleb128 0x13
+ 1077 0025 00       		.byte	0
+ 1078 0026 00       		.byte	0
+ 1079 0027 04       		.uleb128 0x4
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 20
+
+
+ 1080 0028 24       		.uleb128 0x24
+ 1081 0029 00       		.byte	0
+ 1082 002a 0B       		.uleb128 0xb
+ 1083 002b 0B       		.uleb128 0xb
+ 1084 002c 3E       		.uleb128 0x3e
+ 1085 002d 0B       		.uleb128 0xb
+ 1086 002e 03       		.uleb128 0x3
+ 1087 002f 08       		.uleb128 0x8
+ 1088 0030 00       		.byte	0
+ 1089 0031 00       		.byte	0
+ 1090 0032 05       		.uleb128 0x5
+ 1091 0033 01       		.uleb128 0x1
+ 1092 0034 01       		.byte	0x1
+ 1093 0035 49       		.uleb128 0x49
+ 1094 0036 13       		.uleb128 0x13
+ 1095 0037 01       		.uleb128 0x1
+ 1096 0038 13       		.uleb128 0x13
+ 1097 0039 00       		.byte	0
+ 1098 003a 00       		.byte	0
+ 1099 003b 06       		.uleb128 0x6
+ 1100 003c 21       		.uleb128 0x21
+ 1101 003d 00       		.byte	0
+ 1102 003e 49       		.uleb128 0x49
+ 1103 003f 13       		.uleb128 0x13
+ 1104 0040 2F       		.uleb128 0x2f
+ 1105 0041 05       		.uleb128 0x5
+ 1106 0042 00       		.byte	0
+ 1107 0043 00       		.byte	0
+ 1108 0044 07       		.uleb128 0x7
+ 1109 0045 26       		.uleb128 0x26
+ 1110 0046 00       		.byte	0
+ 1111 0047 49       		.uleb128 0x49
+ 1112 0048 13       		.uleb128 0x13
+ 1113 0049 00       		.byte	0
+ 1114 004a 00       		.byte	0
+ 1115 004b 08       		.uleb128 0x8
+ 1116 004c 34       		.uleb128 0x34
+ 1117 004d 00       		.byte	0
+ 1118 004e 03       		.uleb128 0x3
+ 1119 004f 0E       		.uleb128 0xe
+ 1120 0050 3A       		.uleb128 0x3a
+ 1121 0051 0B       		.uleb128 0xb
+ 1122 0052 3B       		.uleb128 0x3b
+ 1123 0053 0B       		.uleb128 0xb
+ 1124 0054 49       		.uleb128 0x49
+ 1125 0055 13       		.uleb128 0x13
+ 1126 0056 3F       		.uleb128 0x3f
+ 1127 0057 19       		.uleb128 0x19
+ 1128 0058 02       		.uleb128 0x2
+ 1129 0059 18       		.uleb128 0x18
+ 1130 005a 00       		.byte	0
+ 1131 005b 00       		.byte	0
+ 1132 005c 09       		.uleb128 0x9
+ 1133 005d 21       		.uleb128 0x21
+ 1134 005e 00       		.byte	0
+ 1135 005f 49       		.uleb128 0x49
+ 1136 0060 13       		.uleb128 0x13
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 21
+
+
+ 1137 0061 2F       		.uleb128 0x2f
+ 1138 0062 0B       		.uleb128 0xb
+ 1139 0063 00       		.byte	0
+ 1140 0064 00       		.byte	0
+ 1141 0065 00       		.byte	0
+ 1142              		.section	.debug_aranges,"",%progbits
+ 1143 0000 14000000 		.4byte	0x14
+ 1144 0004 0200     		.2byte	0x2
+ 1145 0006 00000000 		.4byte	.Ldebug_info0
+ 1146 000a 04       		.byte	0x4
+ 1147 000b 00       		.byte	0
+ 1148 000c 0000     		.2byte	0
+ 1149 000e 0000     		.2byte	0
+ 1150 0010 00000000 		.4byte	0
+ 1151 0014 00000000 		.4byte	0
+ 1152              		.section	.debug_line,"",%progbits
+ 1153              	.Ldebug_line0:
+ 1154 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 1154      02003701 
+ 1154      00000201 
+ 1154      FB0E0D00 
+ 1154      01010101 
+ 1155              	.LASF9:
+ 1156 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 1156      6E74385F 
+ 1156      7400
+ 1157              	.LASF16:
+ 1158 000a 63795F6D 		.ascii	"cy_metadata\000"
+ 1158      65746164 
+ 1158      61746100 
+ 1159              	.LASF1:
+ 1160 0016 756E7369 		.ascii	"unsigned char\000"
+ 1160      676E6564 
+ 1160      20636861 
+ 1160      7200
+ 1161              	.LASF17:
+ 1162 0024 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1162      43313120 
+ 1162      352E342E 
+ 1162      31203230 
+ 1162      31363036 
+ 1163 0057 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1163      20726576 
+ 1163      6973696F 
+ 1163      6E203233 
+ 1163      37373135 
+ 1164 008a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1164      66756E63 
+ 1164      74696F6E 
+ 1164      2D736563 
+ 1164      74696F6E 
+ 1165              	.LASF5:
+ 1166 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1166      20756E73 
+ 1166      69676E65 
+ 1166      6420696E 
+ 1166      7400
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 22
+
+
+ 1167              	.LASF3:
+ 1168 00c4 73686F72 		.ascii	"short unsigned int\000"
+ 1168      7420756E 
+ 1168      7369676E 
+ 1168      65642069 
+ 1168      6E7400
+ 1169              	.LASF13:
+ 1170 00d7 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 1170      6574615F 
+ 1170      63757374 
+ 1170      6E766C00 
+ 1171              	.LASF12:
+ 1172 00e7 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 1172      6574615F 
+ 1172      636F6E66 
+ 1172      69676563 
+ 1172      6300
+ 1173              	.LASF8:
+ 1174 00f9 756E7369 		.ascii	"unsigned int\000"
+ 1174      676E6564 
+ 1174      20696E74 
+ 1174      00
+ 1175              	.LASF7:
+ 1176 0106 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1176      206C6F6E 
+ 1176      6720756E 
+ 1176      7369676E 
+ 1176      65642069 
+ 1177              	.LASF10:
+ 1178 011d 75696E74 		.ascii	"uint8_t\000"
+ 1178      385F7400 
+ 1179              	.LASF15:
+ 1180 0125 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 1180      6574615F 
+ 1180      666C6173 
+ 1180      6870726F 
+ 1180      74656374 
+ 1181              	.LASF14:
+ 1182 013a 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 1182      6574615F 
+ 1182      776F6E76 
+ 1182      6C00
+ 1183              	.LASF11:
+ 1184 0148 73697A65 		.ascii	"sizetype\000"
+ 1184      74797065 
+ 1184      00
+ 1185              	.LASF6:
+ 1186 0151 6C6F6E67 		.ascii	"long long int\000"
+ 1186      206C6F6E 
+ 1186      6720696E 
+ 1186      7400
+ 1187              	.LASF2:
+ 1188 015f 73686F72 		.ascii	"short int\000"
+ 1188      7420696E 
+ 1188      7400
+ 1189              	.LASF19:
+ 1190 0169 443A5C50 		.ascii	"D:\\Projects\\PSoC\\PSoC 5\\CourseWork\\CourseWork_"
+ARM GAS  C:\Users\serga\AppData\Local\Temp\cc94ybnO.s 			page 23
+
+
+ 1190      726F6A65 
+ 1190      6374735C 
+ 1190      50536F43 
+ 1190      5C50536F 
+ 1191 0197 44656D6F 		.ascii	"Demo.cydsn\000"
+ 1191      2E637964 
+ 1191      736E00
+ 1192              	.LASF4:
+ 1193 01a2 6C6F6E67 		.ascii	"long int\000"
+ 1193      20696E74 
+ 1193      00
+ 1194              	.LASF0:
+ 1195 01ab 7369676E 		.ascii	"signed char\000"
+ 1195      65642063 
+ 1195      68617200 
+ 1196              	.LASF18:
+ 1197 01b7 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 1197      72617465 
+ 1197      645F536F 
+ 1197      75726365 
+ 1197      5C50536F 
+ 1198              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

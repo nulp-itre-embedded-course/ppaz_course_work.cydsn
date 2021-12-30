@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CourseWork\CourseWork_Demo\Source Files\main.c">
+<ExpandedNodeIds>
+<v>CourseWork</v>
+<v>CourseWork\CourseWork_Demo</v>
+<v>CourseWork\CourseWork_Demo\TopDesign</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\Pins</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\Analog</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\Clocks</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\Interrupts</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\DMA</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\System</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\Directives</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\Flash Security</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\EEPROM</v>
+<v>CourseWork\CourseWork_Demo\Header Files</v>
+<v>CourseWork\CourseWork_Demo\Header Files\cyapicallbacks.h</v>
+<v>CourseWork\CourseWork_Demo\Header Files\myDAC.h</v>
+<v>CourseWork\CourseWork_Demo\Header Files\sin_tab.h</v>
+<v>CourseWork\CourseWork_Demo\Header Files\timing.h</v>
+<v>CourseWork\CourseWork_Demo\Source Files</v>
+<v>CourseWork\CourseWork_Demo\Source Files\main.c</v>
+<v>CourseWork\CourseWork_Demo\Source Files\myDAC.c</v>
+<v>CourseWork\CourseWork_Demo\Source Files\timing.c</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source\PSoC5</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CourseWork</v>
+<v>CourseWork\CourseWork_Demo</v>
+<v>CourseWork\CourseWork_Demo\TopDesign</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\Pins</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\Analog</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\Clocks</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\Interrupts</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\DMA</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\System</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\Directives</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\Flash Security</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.cydwr\EEPROM</v>
+<v>CourseWork\CourseWork_Demo\Header Files</v>
+<v>CourseWork\CourseWork_Demo\Header Files\cyapicallbacks.h</v>
+<v>CourseWork\CourseWork_Demo\Header Files\myDAC.h</v>
+<v>CourseWork\CourseWork_Demo\Header Files\sin_tab.h</v>
+<v>CourseWork\CourseWork_Demo\Header Files\timing.h</v>
+<v>CourseWork\CourseWork_Demo\Source Files</v>
+<v>CourseWork\CourseWork_Demo\Source Files\main.c</v>
+<v>CourseWork\CourseWork_Demo\Source Files\myDAC.c</v>
+<v>CourseWork\CourseWork_Demo\Source Files\timing.c</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source\PSoC5</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source\PSoC5\cy_boot</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source\PSoC5\DVDAC</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source\PSoC5\DVDAC_DMA</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source\PSoC5\DVDAC_IntClock</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source\PSoC5\DVDAC_VDAC8</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source\PSoC5\Em_EEPROM_Dynamic</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source\PSoC5\isrSampleTimer</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source\PSoC5\SamplingTimer</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source\PSoC5\UART</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source\PSoC5\UART_IntClock</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source\PSoC5\Vout</v>
+<v>CourseWork\CourseWork_Demo\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CourseWork</v>
+<v>CourseWork\CourseWork_Demo</v>
+<v>CourseWork\CourseWork_Demo\TopDesign</v>
+<v>CourseWork\CourseWork_Demo\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CourseWork</v>
+<v>CourseWork\CourseWork_Demo</v>
+<v>CourseWork\CourseWork_Demo\TopDesign</v>
+<v>CourseWork\CourseWork_Demo\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CourseWork</v>
+<v>CourseWork\CourseWork_Demo</v>
+<v>CourseWork\CourseWork_Demo\CortexM3</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_DMA_dma.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_IntClock.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_PM.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_VDAC8.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_VDAC8_PM.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\isrSampleTimer.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\myDAC.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\SamplingTimer.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\SamplingTimer_PM.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\timing.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_INT.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_IntClock.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\Listing Files\Vout.lst</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\CourseWork_Demo.elf</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\CourseWork_Demo.hex</v>
+<v>CourseWork\CourseWork_Demo\CortexM3\ARM_GCC_541\Debug\CourseWork_Demo.map</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.gpdsc</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo.rpt</v>
+<v>CourseWork\CourseWork_Demo\CourseWork_Demo_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CourseWork</v>
+<v>CourseWork\CourseWork_Demo</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CourseWork</v>
+<v>CourseWork\CourseWork_Demo</v>
+<v>CourseWork\CourseWork_Demo\PSoC 5LP Architecture TRM</v>
+<v>CourseWork\CourseWork_Demo\CY8C58LP Family Datasheet</v>
+<v>CourseWork\CourseWork_Demo\System Reference Guides</v>
+<v>CourseWork\CourseWork_Demo\System Reference Guides\cy_boot_v6_10</v>
+<v>CourseWork\CourseWork_Demo\cy_clock_v2_20.pdf</v>
+<v>CourseWork\CourseWork_Demo\cy_isr_v1_71.pdf</v>
+<v>CourseWork\CourseWork_Demo\cy_pins_v2_20</v>
+<v>CourseWork\CourseWork_Demo\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>CourseWork\CourseWork_Demo\DVDAC_v2_10.pdf</v>
+<v>CourseWork\CourseWork_Demo\Timer_v2_80.pdf</v>
+<v>CourseWork\CourseWork_Demo\UART_v2_50.pdf</v>
+<v>CourseWork\CourseWork_Demo\ZeroTerminal.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CourseWork</v>
+<v>CourseWork\CourseWork_Demo</v>
+<v>CourseWork\CourseWork_Demo\PSoC 5LP Architecture TRM</v>
+<v>CourseWork\CourseWork_Demo\CY8C58LP Family Datasheet</v>
+<v>CourseWork\CourseWork_Demo\System Reference Guides</v>
+<v>CourseWork\CourseWork_Demo\System Reference Guides\cy_boot_v6_10</v>
+<v>CourseWork\CourseWork_Demo\cy_clock_v2_20.pdf</v>
+<v>CourseWork\CourseWork_Demo\cy_isr_v1_71.pdf</v>
+<v>CourseWork\CourseWork_Demo\cy_pins_v2_20</v>
+<v>CourseWork\CourseWork_Demo\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>CourseWork\CourseWork_Demo\DVDAC_v2_10.pdf</v>
+<v>CourseWork\CourseWork_Demo\Timer_v2_80.pdf</v>
+<v>CourseWork\CourseWork_Demo\UART_v2_50.pdf</v>
+<v>CourseWork\CourseWork_Demo\ZeroTerminal.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\CourseWork_Demo.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\CourseWork_Demo.cydsn\CourseWork_Demo.cydwr" />
+<name v=".\CourseWork_Demo.cydsn\sin_tab.h" />
+<name v=".\CourseWork_Demo.cydsn\myDAC.h" />
+<name v=".\CourseWork_Demo.cydsn\myDAC.c" />
+<name v=".\CourseWork_Demo.cydsn\timing.h" />
+<name v=".\CourseWork_Demo.cydsn\timing.c" />
+<name v=".\CourseWork_Demo.cydsn\main.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1239, 495" SelectedTabbedMdiWindow="87097aae-48a9-4418-a218-f08d311f0d2b"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="87097aae-48a9-4418-a218-f08d311f0d2b" /><DocumentWindow Key="D:\Projects\PSoC\PSoC 5\CourseWork\CourseWork_Demo.cydsn\TopDesign\TopDesign.cysch" Guid="2498008b-7371-412a-8717-ad5c69884a86" /><DocumentWindow Key="D:\Projects\PSoC\PSoC 5\CourseWork\CourseWork_Demo.cydsn\CourseWork_Demo.cydwr" Guid="fe95a151-4455-4058-b383-359275915ac6" /><DocumentWindow Key="D:\Projects\PSoC\PSoC 5\CourseWork\CourseWork_Demo.cydsn\sin_tab.h" Guid="75b0e18a-96d8-4ff2-a64b-d449f9b846e0" /><DocumentWindow Key="D:\Projects\PSoC\PSoC 5\CourseWork\CourseWork_Demo.cydsn\myDAC.h" Guid="933ef153-0d33-42eb-bed5-9d6cbab660b2" /><DocumentWindow Key="D:\Projects\PSoC\PSoC 5\CourseWork\CourseWork_Demo.cydsn\myDAC.c" Guid="201e1ca6-56e1-4312-867d-dc2b41c8ae2e" /><DocumentWindow Key="D:\Projects\PSoC\PSoC 5\CourseWork\CourseWork_Demo.cydsn\timing.h" Guid="c3b7dc52-3433-482e-9950-8d40ff99bf0c" /><DocumentWindow Key="D:\Projects\PSoC\PSoC 5\CourseWork\CourseWork_Demo.cydsn\timing.c" Guid="2967cf89-ced4-46df-ae67-e97e57152f40" /><DocumentWindow Key="D:\Projects\PSoC\PSoC 5\CourseWork\CourseWork_Demo.cydsn\main.c" Guid="520e0440-758e-4d38-8510-d12cdc6c9a2b" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
