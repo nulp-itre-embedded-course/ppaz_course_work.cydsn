@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 1
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc2TdLDd.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 1
   35              		.loc 1 20 0
   36 0002 FFF7FEFF 		bl	SamplingTimer_ReadStatusRegister
   37              	.LVL0:
-ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 2
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc2TdLDd.s 			page 2
 
 
   21:timing.c      ****     sample_flag = 1;
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 1
   82 0018 10BD     		pop	{r4, pc}
   83              	.L8:
   84 001a 00BF     		.align	2
-ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 3
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc2TdLDd.s 			page 3
 
 
   85              	.L7:
@@ -141,53 +141,53 @@ ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 1
  102 0006 00000000 		.4byte	.Ldebug_abbrev0
  103 000a 04       		.byte	0x4
  104 000b 01       		.uleb128 0x1
- 105 000c 77000000 		.4byte	.LASF25
+ 105 000c B3000000 		.4byte	.LASF25
  106 0010 0C       		.byte	0xc
- 107 0011 00000000 		.4byte	.LASF26
- 108 0015 F3010000 		.4byte	.LASF27
+ 107 0011 3C000000 		.4byte	.LASF26
+ 108 0015 00000000 		.4byte	.LASF27
  109 0019 00000000 		.4byte	.Ldebug_ranges0+0
  110 001d 00000000 		.4byte	0
  111 0021 00000000 		.4byte	.Ldebug_line0
  112 0025 02       		.uleb128 0x2
  113 0026 01       		.byte	0x1
  114 0027 06       		.byte	0x6
- 115 0028 5D020000 		.4byte	.LASF0
+ 115 0028 4F020000 		.4byte	.LASF0
  116 002c 02       		.uleb128 0x2
  117 002d 01       		.byte	0x1
  118 002e 08       		.byte	0x8
- 119 002f 69000000 		.4byte	.LASF1
+ 119 002f A5000000 		.4byte	.LASF1
  120 0033 02       		.uleb128 0x2
  121 0034 02       		.byte	0x2
  122 0035 05       		.byte	0x5
- 123 0036 E3010000 		.4byte	.LASF2
+ 123 0036 1F020000 		.4byte	.LASF2
  124 003a 02       		.uleb128 0x2
  125 003b 02       		.byte	0x2
  126 003c 07       		.byte	0x7
- 127 003d 31010000 		.4byte	.LASF3
+ 127 003d 6D010000 		.4byte	.LASF3
  128 0041 03       		.uleb128 0x3
- 129 0042 1E000000 		.4byte	.LASF9
+ 129 0042 5A000000 		.4byte	.LASF9
  130 0046 02       		.byte	0x2
  131 0047 3F       		.byte	0x3f
  132 0048 4C000000 		.4byte	0x4c
  133 004c 02       		.uleb128 0x2
  134 004d 04       		.byte	0x4
  135 004e 05       		.byte	0x5
- 136 004f 48020000 		.4byte	.LASF4
+ 136 004f 3A020000 		.4byte	.LASF4
  137 0053 02       		.uleb128 0x2
  138 0054 04       		.byte	0x4
  139 0055 07       		.byte	0x7
- 140 0056 1F010000 		.4byte	.LASF5
+ 140 0056 5B010000 		.4byte	.LASF5
  141 005a 02       		.uleb128 0x2
-ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 4
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc2TdLDd.s 			page 4
 
 
  142 005b 08       		.byte	0x8
  143 005c 05       		.byte	0x5
- 144 005d D0010000 		.4byte	.LASF6
+ 144 005d 0C020000 		.4byte	.LASF6
  145 0061 02       		.uleb128 0x2
  146 0062 08       		.byte	0x8
  147 0063 07       		.byte	0x7
- 148 0064 99010000 		.4byte	.LASF7
+ 148 0064 D5010000 		.4byte	.LASF7
  149 0068 04       		.uleb128 0x4
  150 0069 04       		.byte	0x4
  151 006a 05       		.byte	0x5
@@ -195,50 +195,50 @@ ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 1
  153 006f 02       		.uleb128 0x2
  154 0070 04       		.byte	0x4
  155 0071 07       		.byte	0x7
- 156 0072 8C010000 		.4byte	.LASF8
+ 156 0072 C8010000 		.4byte	.LASF8
  157 0076 03       		.uleb128 0x3
- 158 0077 BF010000 		.4byte	.LASF10
+ 158 0077 FB010000 		.4byte	.LASF10
  159 007b 03       		.byte	0x3
  160 007c 2C       		.byte	0x2c
  161 007d 41000000 		.4byte	0x41
  162 0081 05       		.uleb128 0x5
- 163 0082 ED010000 		.4byte	.LASF11
+ 163 0082 29020000 		.4byte	.LASF11
  164 0086 04       		.byte	0x4
  165 0087 E901     		.2byte	0x1e9
  166 0089 2C000000 		.4byte	0x2c
  167 008d 05       		.uleb128 0x5
- 168 008e 85010000 		.4byte	.LASF12
+ 168 008e C1010000 		.4byte	.LASF12
  169 0092 04       		.byte	0x4
  170 0093 EA01     		.2byte	0x1ea
  171 0095 3A000000 		.4byte	0x3a
  172 0099 02       		.uleb128 0x2
  173 009a 04       		.byte	0x4
  174 009b 04       		.byte	0x4
- 175 009c 63000000 		.4byte	.LASF13
+ 175 009c 9F000000 		.4byte	.LASF13
  176 00a0 02       		.uleb128 0x2
  177 00a1 08       		.byte	0x8
  178 00a2 04       		.byte	0x4
- 179 00a3 7E010000 		.4byte	.LASF14
+ 179 00a3 BA010000 		.4byte	.LASF14
  180 00a7 02       		.uleb128 0x2
  181 00a8 01       		.byte	0x1
  182 00a9 08       		.byte	0x8
- 183 00aa DE010000 		.4byte	.LASF15
+ 183 00aa 1A020000 		.4byte	.LASF15
  184 00ae 02       		.uleb128 0x2
  185 00af 08       		.byte	0x8
  186 00b0 04       		.byte	0x4
- 187 00b1 51020000 		.4byte	.LASF16
+ 187 00b1 43020000 		.4byte	.LASF16
  188 00b5 02       		.uleb128 0x2
  189 00b6 04       		.byte	0x4
  190 00b7 07       		.byte	0x7
- 191 00b8 C7010000 		.4byte	.LASF17
+ 191 00b8 03020000 		.4byte	.LASF17
  192 00bc 06       		.uleb128 0x6
- 193 00bd B0010000 		.4byte	.LASF28
+ 193 00bd EC010000 		.4byte	.LASF28
  194 00c1 01       		.byte	0x1
  195 00c2 11       		.byte	0x11
  196 00c3 00000000 		.4byte	.LFB63
  197 00c7 14000000 		.4byte	.LFE63-.LFB63
  198 00cb 01       		.uleb128 0x1
-ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 5
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc2TdLDd.s 			page 5
 
 
  199 00cc 9C       		.byte	0x9c
@@ -248,7 +248,7 @@ ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 1
  203 00d6 55010000 		.4byte	0x155
  204 00da 00       		.byte	0
  205 00db 08       		.uleb128 0x8
- 206 00dc 3D020000 		.4byte	.LASF29
+ 206 00dc 2F020000 		.4byte	.LASF29
  207 00e0 01       		.byte	0x1
  208 00e1 18       		.byte	0x18
  209 00e2 00000000 		.4byte	.LFB64
@@ -257,7 +257,7 @@ ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 1
  212 00eb 9C       		.byte	0x9c
  213 00ec 39010000 		.4byte	0x139
  214 00f0 09       		.uleb128 0x9
- 215 00f1 55000000 		.4byte	.LASF30
+ 215 00f1 91000000 		.4byte	.LASF30
  216 00f5 01       		.byte	0x1
  217 00f6 18       		.byte	0x18
  218 00f7 8D000000 		.4byte	0x8d
@@ -291,43 +291,43 @@ ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 1
  246 0137 00       		.byte	0
  247 0138 00       		.byte	0
  248 0139 0D       		.uleb128 0xd
- 249 013a 5D010000 		.4byte	.LASF18
+ 249 013a 99010000 		.4byte	.LASF18
  250 013e 05       		.byte	0x5
  251 013f 1207     		.2byte	0x712
  252 0141 45010000 		.4byte	0x145
  253 0145 0E       		.uleb128 0xe
  254 0146 76000000 		.4byte	0x76
  255 014a 0F       		.uleb128 0xf
-ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 6
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc2TdLDd.s 			page 6
 
 
- 256 014b 28000000 		.4byte	.LASF19
+ 256 014b 64000000 		.4byte	.LASF19
  257 014f 01       		.byte	0x1
  258 0150 0E       		.byte	0xe
  259 0151 81000000 		.4byte	0x81
  260 0155 10       		.uleb128 0x10
- 261 0156 34000000 		.4byte	.LASF20
- 262 015a 34000000 		.4byte	.LASF20
+ 261 0156 70000000 		.4byte	.LASF20
+ 262 015a 70000000 		.4byte	.LASF20
  263 015e 06       		.byte	0x6
  264 015f 5E       		.byte	0x5e
  265 0160 10       		.uleb128 0x10
- 266 0161 6A010000 		.4byte	.LASF21
- 267 0165 6A010000 		.4byte	.LASF21
+ 266 0161 A6010000 		.4byte	.LASF21
+ 267 0165 A6010000 		.4byte	.LASF21
  268 0169 06       		.byte	0x6
  269 016a 5A       		.byte	0x5a
  270 016b 10       		.uleb128 0x10
- 271 016c 05010000 		.4byte	.LASF22
- 272 0170 05010000 		.4byte	.LASF22
+ 271 016c 41010000 		.4byte	.LASF22
+ 272 0170 41010000 		.4byte	.LASF22
  273 0174 06       		.byte	0x6
  274 0175 68       		.byte	0x68
  275 0176 10       		.uleb128 0x10
- 276 0177 09000000 		.4byte	.LASF23
- 277 017b 09000000 		.4byte	.LASF23
+ 276 0177 45000000 		.4byte	.LASF23
+ 277 017b 45000000 		.4byte	.LASF23
  278 017f 07       		.byte	0x7
  279 0180 17       		.byte	0x17
  280 0181 10       		.uleb128 0x10
- 281 0182 44010000 		.4byte	.LASF24
- 282 0186 44010000 		.4byte	.LASF24
+ 281 0182 80010000 		.4byte	.LASF24
+ 282 0186 80010000 		.4byte	.LASF24
  283 018a 07       		.byte	0x7
  284 018b 1D       		.byte	0x1d
  285 018c 00       		.byte	0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 1
  310 0016 0B       		.uleb128 0xb
  311 0017 0B       		.uleb128 0xb
  312 0018 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 7
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc2TdLDd.s 			page 7
 
 
  313 0019 0B       		.uleb128 0xb
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 1
  367 004f 01       		.uleb128 0x1
  368 0050 12       		.uleb128 0x12
  369 0051 06       		.uleb128 0x6
-ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 8
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc2TdLDd.s 			page 8
 
 
  370 0052 40       		.uleb128 0x40
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 1
  424 008c 17       		.uleb128 0x17
  425 008d 00       		.byte	0
  426 008e 00       		.byte	0
-ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 9
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc2TdLDd.s 			page 9
 
 
  427 008f 0A       		.uleb128 0xa
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 1
  481 00cc 34       		.uleb128 0x34
  482 00cd 00       		.byte	0
  483 00ce 03       		.uleb128 0x3
-ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 10
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc2TdLDd.s 			page 10
 
 
  484 00cf 0E       		.uleb128 0xe
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 1
  538 000e 0000     		.2byte	0
  539 0010 00000000 		.4byte	.LFB63
  540 0014 14000000 		.4byte	.LFE63-.LFB63
-ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 11
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc2TdLDd.s 			page 11
 
 
  541 0018 00000000 		.4byte	.LFB64
@@ -620,172 +620,171 @@ ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 1
  555      00000201 
  555      FB0E0D00 
  555      01010101 
- 556              	.LASF26:
- 557 0000 74696D69 		.ascii	"timing.c\000"
- 557      6E672E63 
- 557      00
- 558              	.LASF23:
- 559 0009 69737253 		.ascii	"isrSampleTimer_Start\000"
- 559      616D706C 
- 559      6554696D 
- 559      65725F53 
- 559      74617274 
- 560              	.LASF9:
- 561 001e 5F5F696E 		.ascii	"__int32_t\000"
- 561      7433325F 
- 561      7400
- 562              	.LASF19:
- 563 0028 73616D70 		.ascii	"sample_flag\000"
- 563      6C655F66 
- 563      6C616700 
- 564              	.LASF20:
- 565 0034 53616D70 		.ascii	"SamplingTimer_ReadStatusRegister\000"
- 565      6C696E67 
- 565      54696D65 
- 565      725F5265 
- 565      61645374 
- 566              	.LASF30:
- 567 0055 73616D70 		.ascii	"sample_period\000"
- 567      6C655F70 
- 567      6572696F 
- 567      6400
- 568              	.LASF13:
- 569 0063 666C6F61 		.ascii	"float\000"
- 569      7400
- 570              	.LASF1:
- 571 0069 756E7369 		.ascii	"unsigned char\000"
- 571      676E6564 
- 571      20636861 
- 571      7200
- 572              	.LASF25:
-ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 12
+ 556              	.LASF27:
+ 557 0000 433A5C55 		.ascii	"C:\\Users\\oleksandr\\Desktop\\CourseWork\\CourseWo"
+ 557      73657273 
+ 557      5C6F6C65 
+ 557      6B73616E 
+ 557      64725C44 
+ 558 002e 726B5F44 		.ascii	"rk_Demo.cydsn\000"
+ 558      656D6F2E 
+ 558      63796473 
+ 558      6E00
+ 559              	.LASF26:
+ 560 003c 74696D69 		.ascii	"timing.c\000"
+ 560      6E672E63 
+ 560      00
+ 561              	.LASF23:
+ 562 0045 69737253 		.ascii	"isrSampleTimer_Start\000"
+ 562      616D706C 
+ 562      6554696D 
+ 562      65725F53 
+ 562      74617274 
+ 563              	.LASF9:
+ 564 005a 5F5F696E 		.ascii	"__int32_t\000"
+ 564      7433325F 
+ 564      7400
+ 565              	.LASF19:
+ 566 0064 73616D70 		.ascii	"sample_flag\000"
+ 566      6C655F66 
+ 566      6C616700 
+ 567              	.LASF20:
+ 568 0070 53616D70 		.ascii	"SamplingTimer_ReadStatusRegister\000"
+ 568      6C696E67 
+ 568      54696D65 
+ 568      725F5265 
+ 568      61645374 
+ 569              	.LASF30:
+ 570 0091 73616D70 		.ascii	"sample_period\000"
+ 570      6C655F70 
+ 570      6572696F 
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc2TdLDd.s 			page 12
 
 
- 573 0077 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 573      43313120 
- 573      352E342E 
- 573      31203230 
- 573      31363036 
- 574 00aa 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 574      20726576 
- 574      6973696F 
- 574      6E203233 
- 574      37373135 
- 575 00dd 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 575      66756E63 
- 575      74696F6E 
- 575      2D736563 
- 575      74696F6E 
- 576              	.LASF22:
- 577 0105 53616D70 		.ascii	"SamplingTimer_WritePeriod\000"
- 577      6C696E67 
- 577      54696D65 
- 577      725F5772 
- 577      69746550 
- 578              	.LASF5:
- 579 011f 6C6F6E67 		.ascii	"long unsigned int\000"
- 579      20756E73 
- 579      69676E65 
- 579      6420696E 
- 579      7400
- 580              	.LASF3:
- 581 0131 73686F72 		.ascii	"short unsigned int\000"
- 581      7420756E 
- 581      7369676E 
- 581      65642069 
- 581      6E7400
- 582              	.LASF24:
- 583 0144 69737253 		.ascii	"isrSampleTimer_SetVector\000"
- 583      616D706C 
- 583      6554696D 
- 583      65725F53 
- 583      65745665 
- 584              	.LASF18:
- 585 015d 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 585      52784275 
- 585      66666572 
- 585      00
- 586              	.LASF21:
- 587 016a 53616D70 		.ascii	"SamplingTimer_Start\000"
- 587      6C696E67 
- 587      54696D65 
- 587      725F5374 
- 587      61727400 
- 588              	.LASF14:
- 589 017e 646F7562 		.ascii	"double\000"
- 589      6C6500
- 590              	.LASF12:
- 591 0185 75696E74 		.ascii	"uint16\000"
- 591      313600
- 592              	.LASF8:
-ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 13
+ 570      6400
+ 571              	.LASF13:
+ 572 009f 666C6F61 		.ascii	"float\000"
+ 572      7400
+ 573              	.LASF1:
+ 574 00a5 756E7369 		.ascii	"unsigned char\000"
+ 574      676E6564 
+ 574      20636861 
+ 574      7200
+ 575              	.LASF25:
+ 576 00b3 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 576      43313120 
+ 576      352E342E 
+ 576      31203230 
+ 576      31363036 
+ 577 00e6 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 577      20726576 
+ 577      6973696F 
+ 577      6E203233 
+ 577      37373135 
+ 578 0119 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 578      66756E63 
+ 578      74696F6E 
+ 578      2D736563 
+ 578      74696F6E 
+ 579              	.LASF22:
+ 580 0141 53616D70 		.ascii	"SamplingTimer_WritePeriod\000"
+ 580      6C696E67 
+ 580      54696D65 
+ 580      725F5772 
+ 580      69746550 
+ 581              	.LASF5:
+ 582 015b 6C6F6E67 		.ascii	"long unsigned int\000"
+ 582      20756E73 
+ 582      69676E65 
+ 582      6420696E 
+ 582      7400
+ 583              	.LASF3:
+ 584 016d 73686F72 		.ascii	"short unsigned int\000"
+ 584      7420756E 
+ 584      7369676E 
+ 584      65642069 
+ 584      6E7400
+ 585              	.LASF24:
+ 586 0180 69737253 		.ascii	"isrSampleTimer_SetVector\000"
+ 586      616D706C 
+ 586      6554696D 
+ 586      65725F53 
+ 586      65745665 
+ 587              	.LASF18:
+ 588 0199 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 588      52784275 
+ 588      66666572 
+ 588      00
+ 589              	.LASF21:
+ 590 01a6 53616D70 		.ascii	"SamplingTimer_Start\000"
+ 590      6C696E67 
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc2TdLDd.s 			page 13
 
 
- 593 018c 756E7369 		.ascii	"unsigned int\000"
- 593      676E6564 
- 593      20696E74 
- 593      00
- 594              	.LASF7:
- 595 0199 6C6F6E67 		.ascii	"long long unsigned int\000"
- 595      206C6F6E 
- 595      6720756E 
- 595      7369676E 
- 595      65642069 
- 596              	.LASF28:
- 597 01b0 53616D70 		.ascii	"SampleTimerIsr\000"
- 597      6C655469 
- 597      6D657249 
- 597      737200
- 598              	.LASF10:
- 599 01bf 696E7433 		.ascii	"int32_t\000"
- 599      325F7400 
- 600              	.LASF17:
- 601 01c7 73697A65 		.ascii	"sizetype\000"
- 601      74797065 
- 601      00
- 602              	.LASF6:
- 603 01d0 6C6F6E67 		.ascii	"long long int\000"
- 603      206C6F6E 
- 603      6720696E 
- 603      7400
- 604              	.LASF15:
- 605 01de 63686172 		.ascii	"char\000"
- 605      00
- 606              	.LASF2:
- 607 01e3 73686F72 		.ascii	"short int\000"
- 607      7420696E 
- 607      7400
- 608              	.LASF11:
- 609 01ed 75696E74 		.ascii	"uint8\000"
- 609      3800
- 610              	.LASF27:
- 611 01f3 433A5C55 		.ascii	"C:\\Users\\oleksandr\\Desktop\\CourseworkPAZ\\Cours"
- 611      73657273 
- 611      5C6F6C65 
- 611      6B73616E 
- 611      64725C44 
- 612 0221 65576F72 		.ascii	"eWork\\CourseWork_Demo.cydsn\000"
- 612      6B5C436F 
- 612      75727365 
- 612      576F726B 
- 612      5F44656D 
+ 590      54696D65 
+ 590      725F5374 
+ 590      61727400 
+ 591              	.LASF14:
+ 592 01ba 646F7562 		.ascii	"double\000"
+ 592      6C6500
+ 593              	.LASF12:
+ 594 01c1 75696E74 		.ascii	"uint16\000"
+ 594      313600
+ 595              	.LASF8:
+ 596 01c8 756E7369 		.ascii	"unsigned int\000"
+ 596      676E6564 
+ 596      20696E74 
+ 596      00
+ 597              	.LASF7:
+ 598 01d5 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 598      206C6F6E 
+ 598      6720756E 
+ 598      7369676E 
+ 598      65642069 
+ 599              	.LASF28:
+ 600 01ec 53616D70 		.ascii	"SampleTimerIsr\000"
+ 600      6C655469 
+ 600      6D657249 
+ 600      737200
+ 601              	.LASF10:
+ 602 01fb 696E7433 		.ascii	"int32_t\000"
+ 602      325F7400 
+ 603              	.LASF17:
+ 604 0203 73697A65 		.ascii	"sizetype\000"
+ 604      74797065 
+ 604      00
+ 605              	.LASF6:
+ 606 020c 6C6F6E67 		.ascii	"long long int\000"
+ 606      206C6F6E 
+ 606      6720696E 
+ 606      7400
+ 607              	.LASF15:
+ 608 021a 63686172 		.ascii	"char\000"
+ 608      00
+ 609              	.LASF2:
+ 610 021f 73686F72 		.ascii	"short int\000"
+ 610      7420696E 
+ 610      7400
+ 611              	.LASF11:
+ 612 0229 75696E74 		.ascii	"uint8\000"
+ 612      3800
  613              	.LASF29:
- 614 023d 496E6974 		.ascii	"InitTiming\000"
+ 614 022f 496E6974 		.ascii	"InitTiming\000"
  614      54696D69 
  614      6E6700
  615              	.LASF4:
- 616 0248 6C6F6E67 		.ascii	"long int\000"
+ 616 023a 6C6F6E67 		.ascii	"long int\000"
  616      20696E74 
  616      00
  617              	.LASF16:
-ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc6ARABc.s 			page 14
+ 618 0243 6C6F6E67 		.ascii	"long double\000"
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\cc2TdLDd.s 			page 14
 
 
- 618 0251 6C6F6E67 		.ascii	"long double\000"
  618      20646F75 
  618      626C6500 
  619              	.LASF0:
- 620 025d 7369676E 		.ascii	"signed char\000"
+ 620 024f 7369676E 		.ascii	"signed char\000"
  620      65642063 
  620      68617200 
  621              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

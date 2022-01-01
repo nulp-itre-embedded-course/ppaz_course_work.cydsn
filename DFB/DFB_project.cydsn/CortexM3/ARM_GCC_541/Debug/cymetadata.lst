@@ -1,0 +1,1398 @@
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 864
+  28              	cy_meta_configecc:
+  29 0000 02       		.byte	2
+  30 0001 4F       		.byte	79
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 01       		.byte	1
+  34 0005 5A       		.byte	90
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 03       		.byte	3
+  38 0009 65       		.byte	101
+  39 000a 00       		.byte	0
+  40 000b 40       		.byte	64
+  41 000c 01       		.byte	1
+  42 000d 07       		.byte	7
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 04       		.byte	4
+  46 0011 08       		.byte	8
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 02       		.byte	2
+  50 0015 09       		.byte	9
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 01       		.byte	1
+  54 0019 15       		.byte	21
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 11       		.byte	17
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 2
+
+
+  58 001d 18       		.byte	24
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 3A       		.byte	58
+  62 0021 19       		.byte	25
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 70       		.byte	112
+  66 0025 1A       		.byte	26
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 4D       		.byte	77
+  70 0029 1B       		.byte	27
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 02       		.byte	2
+  74 002d 40       		.byte	64
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 01       		.byte	1
+  78 0031 41       		.byte	65
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 01       		.byte	1
+  82 0035 42       		.byte	66
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 05       		.byte	5
+  86 0039 43       		.byte	67
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 02       		.byte	2
+  90 003d 47       		.byte	71
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 04       		.byte	4
+  94 0041 48       		.byte	72
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 01       		.byte	1
+  98 0045 49       		.byte	73
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 01       		.byte	1
+ 102 0049 4C       		.byte	76
+ 103 004a 01       		.byte	1
+ 104 004b 40       		.byte	64
+ 105 004c 0B       		.byte	11
+ 106 004d 4D       		.byte	77
+ 107 004e 01       		.byte	1
+ 108 004f 40       		.byte	64
+ 109 0050 02       		.byte	2
+ 110 0051 50       		.byte	80
+ 111 0052 01       		.byte	1
+ 112 0053 40       		.byte	64
+ 113 0054 01       		.byte	1
+ 114 0055 51       		.byte	81
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 3
+
+
+ 115 0056 01       		.byte	1
+ 116 0057 40       		.byte	64
+ 117 0058 01       		.byte	1
+ 118 0059 80       		.byte	-128
+ 119 005a 0A       		.byte	10
+ 120 005b 27       		.byte	39
+ 121 005c 9F       		.byte	-97
+ 122 005d 01       		.byte	1
+ 123 005e 88       		.byte	-120
+ 124 005f 72       		.byte	114
+ 125 0060 89       		.byte	-119
+ 126 0061 38       		.byte	56
+ 127 0062 8B       		.byte	-117
+ 128 0063 0F       		.byte	15
+ 129 0064 E2       		.byte	-30
+ 130 0065 01       		.byte	1
+ 131 0066 B9       		.byte	-71
+ 132 0067 08       		.byte	8
+ 133 0068 BF       		.byte	-65
+ 134 0069 04       		.byte	4
+ 135 006a D9       		.byte	-39
+ 136 006b 04       		.byte	4
+ 137 006c DF       		.byte	-33
+ 138 006d 01       		.byte	1
+ 139 006e 21       		.byte	33
+ 140 006f 08       		.byte	8
+ 141 0070 81       		.byte	-127
+ 142 0071 08       		.byte	8
+ 143 0072 EC       		.byte	-20
+ 144 0073 20       		.byte	32
+ 145 0074 82       		.byte	-126
+ 146 0075 02       		.byte	2
+ 147 0076 95       		.byte	-107
+ 148 0077 01       		.byte	1
+ 149 0078 98       		.byte	-104
+ 150 0079 01       		.byte	1
+ 151 007a A2       		.byte	-94
+ 152 007b 02       		.byte	2
+ 153 007c A8       		.byte	-88
+ 154 007d 01       		.byte	1
+ 155 007e AC       		.byte	-84
+ 156 007f 01       		.byte	1
+ 157 0080 B2       		.byte	-78
+ 158 0081 01       		.byte	1
+ 159 0082 B4       		.byte	-76
+ 160 0083 02       		.byte	2
+ 161 0084 B7       		.byte	-73
+ 162 0085 01       		.byte	1
+ 163 0086 BA       		.byte	-70
+ 164 0087 02       		.byte	2
+ 165 0088 BE       		.byte	-66
+ 166 0089 10       		.byte	16
+ 167 008a BF       		.byte	-65
+ 168 008b 40       		.byte	64
+ 169 008c D4       		.byte	-44
+ 170 008d 18       		.byte	24
+ 171 008e D8       		.byte	-40
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 4
+
+
+ 172 008f 04       		.byte	4
+ 173 0090 D9       		.byte	-39
+ 174 0091 04       		.byte	4
+ 175 0092 DB       		.byte	-37
+ 176 0093 04       		.byte	4
+ 177 0094 DF       		.byte	-33
+ 178 0095 01       		.byte	1
+ 179 0096 02       		.byte	2
+ 180 0097 80       		.byte	-128
+ 181 0098 04       		.byte	4
+ 182 0099 90       		.byte	-112
+ 183 009a 05       		.byte	5
+ 184 009b 0A       		.byte	10
+ 185 009c 06       		.byte	6
+ 186 009d 40       		.byte	64
+ 187 009e 0A       		.byte	10
+ 188 009f 04       		.byte	4
+ 189 00a0 0C       		.byte	12
+ 190 00a1 01       		.byte	1
+ 191 00a2 0D       		.byte	13
+ 192 00a3 01       		.byte	1
+ 193 00a4 0E       		.byte	14
+ 194 00a5 21       		.byte	33
+ 195 00a6 0F       		.byte	15
+ 196 00a7 08       		.byte	8
+ 197 00a8 10       		.byte	16
+ 198 00a9 82       		.byte	-126
+ 199 00aa 11       		.byte	17
+ 200 00ab 10       		.byte	16
+ 201 00ac 17       		.byte	23
+ 202 00ad 26       		.byte	38
+ 203 00ae 18       		.byte	24
+ 204 00af 04       		.byte	4
+ 205 00b0 19       		.byte	25
+ 206 00b1 06       		.byte	6
+ 207 00b2 1B       		.byte	27
+ 208 00b3 04       		.byte	4
+ 209 00b4 1C       		.byte	28
+ 210 00b5 18       		.byte	24
+ 211 00b6 1D       		.byte	29
+ 212 00b7 A0       		.byte	-96
+ 213 00b8 1E       		.byte	30
+ 214 00b9 40       		.byte	64
+ 215 00ba 1F       		.byte	31
+ 216 00bb 04       		.byte	4
+ 217 00bc 20       		.byte	32
+ 218 00bd 02       		.byte	2
+ 219 00be 25       		.byte	37
+ 220 00bf 08       		.byte	8
+ 221 00c0 26       		.byte	38
+ 222 00c1 93       		.byte	-109
+ 223 00c2 2A       		.byte	42
+ 224 00c3 10       		.byte	16
+ 225 00c4 2B       		.byte	43
+ 226 00c5 04       		.byte	4
+ 227 00c6 2C       		.byte	44
+ 228 00c7 01       		.byte	1
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 5
+
+
+ 229 00c8 2D       		.byte	45
+ 230 00c9 0A       		.byte	10
+ 231 00ca 2F       		.byte	47
+ 232 00cb 04       		.byte	4
+ 233 00cc 32       		.byte	50
+ 234 00cd 04       		.byte	4
+ 235 00ce 35       		.byte	53
+ 236 00cf 04       		.byte	4
+ 237 00d0 36       		.byte	54
+ 238 00d1 11       		.byte	17
+ 239 00d2 37       		.byte	55
+ 240 00d3 40       		.byte	64
+ 241 00d4 3E       		.byte	62
+ 242 00d5 2A       		.byte	42
+ 243 00d6 3F       		.byte	63
+ 244 00d7 80       		.byte	-128
+ 245 00d8 45       		.byte	69
+ 246 00d9 A0       		.byte	-96
+ 247 00da 46       		.byte	70
+ 248 00db 50       		.byte	80
+ 249 00dc 4C       		.byte	76
+ 250 00dd 80       		.byte	-128
+ 251 00de 4E       		.byte	78
+ 252 00df 02       		.byte	2
+ 253 00e0 57       		.byte	87
+ 254 00e1 40       		.byte	64
+ 255 00e2 5B       		.byte	91
+ 256 00e3 01       		.byte	1
+ 257 00e4 5E       		.byte	94
+ 258 00e5 40       		.byte	64
+ 259 00e6 60       		.byte	96
+ 260 00e7 05       		.byte	5
+ 261 00e8 6C       		.byte	108
+ 262 00e9 02       		.byte	2
+ 263 00ea 6D       		.byte	109
+ 264 00eb 10       		.byte	16
+ 265 00ec 6E       		.byte	110
+ 266 00ed 04       		.byte	4
+ 267 00ee 76       		.byte	118
+ 268 00ef 2A       		.byte	42
+ 269 00f0 77       		.byte	119
+ 270 00f1 26       		.byte	38
+ 271 00f2 8C       		.byte	-116
+ 272 00f3 01       		.byte	1
+ 273 00f4 8D       		.byte	-115
+ 274 00f5 08       		.byte	8
+ 275 00f6 C0       		.byte	-64
+ 276 00f7 F8       		.byte	-8
+ 277 00f8 C2       		.byte	-62
+ 278 00f9 F2       		.byte	-14
+ 279 00fa C4       		.byte	-60
+ 280 00fb 7B       		.byte	123
+ 281 00fc CA       		.byte	-54
+ 282 00fd F0       		.byte	-16
+ 283 00fe CC       		.byte	-52
+ 284 00ff F2       		.byte	-14
+ 285 0100 CE       		.byte	-50
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 6
+
+
+ 286 0101 F0       		.byte	-16
+ 287 0102 D0       		.byte	-48
+ 288 0103 F0       		.byte	-16
+ 289 0104 D2       		.byte	-46
+ 290 0105 10       		.byte	16
+ 291 0106 D6       		.byte	-42
+ 292 0107 11       		.byte	17
+ 293 0108 D8       		.byte	-40
+ 294 0109 0C       		.byte	12
+ 295 010a 04       		.byte	4
+ 296 010b 10       		.byte	16
+ 297 010c 05       		.byte	5
+ 298 010d 80       		.byte	-128
+ 299 010e 06       		.byte	6
+ 300 010f AC       		.byte	-84
+ 301 0110 07       		.byte	7
+ 302 0111 13       		.byte	19
+ 303 0112 0C       		.byte	12
+ 304 0113 0C       		.byte	12
+ 305 0114 0E       		.byte	14
+ 306 0115 71       		.byte	113
+ 307 0116 0F       		.byte	15
+ 308 0117 0C       		.byte	12
+ 309 0118 10       		.byte	16
+ 310 0119 09       		.byte	9
+ 311 011a 12       		.byte	18
+ 312 011b D0       		.byte	-48
+ 313 011c 14       		.byte	20
+ 314 011d 14       		.byte	20
+ 315 011e 15       		.byte	21
+ 316 011f 2C       		.byte	44
+ 317 0120 17       		.byte	23
+ 318 0121 43       		.byte	67
+ 319 0122 19       		.byte	25
+ 320 0123 71       		.byte	113
+ 321 0124 1A       		.byte	26
+ 322 0125 03       		.byte	3
+ 323 0126 1B       		.byte	27
+ 324 0127 06       		.byte	6
+ 325 0128 1F       		.byte	31
+ 326 0129 08       		.byte	8
+ 327 012a 20       		.byte	32
+ 328 012b 10       		.byte	16
+ 329 012c 21       		.byte	33
+ 330 012d 71       		.byte	113
+ 331 012e 22       		.byte	34
+ 332 012f 40       		.byte	64
+ 333 0130 23       		.byte	35
+ 334 0131 0E       		.byte	14
+ 335 0132 26       		.byte	38
+ 336 0133 20       		.byte	32
+ 337 0134 28       		.byte	40
+ 338 0135 DC       		.byte	-36
+ 339 0136 2A       		.byte	42
+ 340 0137 22       		.byte	34
+ 341 0138 30       		.byte	48
+ 342 0139 E0       		.byte	-32
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 7
+
+
+ 343 013a 31       		.byte	49
+ 344 013b C0       		.byte	-64
+ 345 013c 33       		.byte	51
+ 346 013d 0F       		.byte	15
+ 347 013e 34       		.byte	52
+ 348 013f 1F       		.byte	31
+ 349 0140 35       		.byte	53
+ 350 0141 30       		.byte	48
+ 351 0142 39       		.byte	57
+ 352 0143 22       		.byte	34
+ 353 0144 3A       		.byte	58
+ 354 0145 02       		.byte	2
+ 355 0146 3B       		.byte	59
+ 356 0147 08       		.byte	8
+ 357 0148 3F       		.byte	63
+ 358 0149 10       		.byte	16
+ 359 014a 40       		.byte	64
+ 360 014b 02       		.byte	2
+ 361 014c 45       		.byte	69
+ 362 014d 40       		.byte	64
+ 363 014e 49       		.byte	73
+ 364 014f FF       		.byte	-1
+ 365 0150 4A       		.byte	74
+ 366 0151 07       		.byte	7
+ 367 0152 4B       		.byte	75
+ 368 0153 FF       		.byte	-1
+ 369 0154 4C       		.byte	76
+ 370 0155 40       		.byte	64
+ 371 0156 4D       		.byte	77
+ 372 0157 20       		.byte	32
+ 373 0158 4E       		.byte	78
+ 374 0159 F0       		.byte	-16
+ 375 015a 4F       		.byte	79
+ 376 015b 05       		.byte	5
+ 377 015c 50       		.byte	80
+ 378 015d 08       		.byte	8
+ 379 015e 58       		.byte	88
+ 380 015f 04       		.byte	4
+ 381 0160 59       		.byte	89
+ 382 0161 04       		.byte	4
+ 383 0162 5A       		.byte	90
+ 384 0163 04       		.byte	4
+ 385 0164 5F       		.byte	95
+ 386 0165 01       		.byte	1
+ 387 0166 60       		.byte	96
+ 388 0167 40       		.byte	64
+ 389 0168 61       		.byte	97
+ 390 0169 A8       		.byte	-88
+ 391 016a 62       		.byte	98
+ 392 016b 40       		.byte	64
+ 393 016c 63       		.byte	99
+ 394 016d 20       		.byte	32
+ 395 016e 80       		.byte	-128
+ 396 016f 13       		.byte	19
+ 397 0170 81       		.byte	-127
+ 398 0171 03       		.byte	3
+ 399 0172 82       		.byte	-126
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 8
+
+
+ 400 0173 04       		.byte	4
+ 401 0174 84       		.byte	-124
+ 402 0175 40       		.byte	64
+ 403 0176 85       		.byte	-123
+ 404 0177 18       		.byte	24
+ 405 0178 86       		.byte	-122
+ 406 0179 20       		.byte	32
+ 407 017a 88       		.byte	-120
+ 408 017b 13       		.byte	19
+ 409 017c 89       		.byte	-119
+ 410 017d 18       		.byte	24
+ 411 017e 8A       		.byte	-118
+ 412 017f 0C       		.byte	12
+ 413 0180 8C       		.byte	-116
+ 414 0181 80       		.byte	-128
+ 415 0182 8D       		.byte	-115
+ 416 0183 12       		.byte	18
+ 417 0184 8E       		.byte	-114
+ 418 0185 20       		.byte	32
+ 419 0186 8F       		.byte	-113
+ 420 0187 08       		.byte	8
+ 421 0188 91       		.byte	-111
+ 422 0189 03       		.byte	3
+ 423 018a 92       		.byte	-110
+ 424 018b 08       		.byte	8
+ 425 018c 94       		.byte	-108
+ 426 018d 0A       		.byte	10
+ 427 018e 96       		.byte	-106
+ 428 018f 14       		.byte	20
+ 429 0190 97       		.byte	-105
+ 430 0191 03       		.byte	3
+ 431 0192 98       		.byte	-104
+ 432 0193 E0       		.byte	-32
+ 433 0194 9B       		.byte	-101
+ 434 0195 03       		.byte	3
+ 435 0196 9C       		.byte	-100
+ 436 0197 20       		.byte	32
+ 437 0198 9D       		.byte	-99
+ 438 0199 03       		.byte	3
+ 439 019a 9E       		.byte	-98
+ 440 019b C0       		.byte	-64
+ 441 019c A1       		.byte	-95
+ 442 019d 20       		.byte	32
+ 443 019e A5       		.byte	-91
+ 444 019f 09       		.byte	9
+ 445 01a0 A6       		.byte	-90
+ 446 01a1 15       		.byte	21
+ 447 01a2 A7       		.byte	-89
+ 448 01a3 14       		.byte	20
+ 449 01a4 A8       		.byte	-88
+ 450 01a5 E0       		.byte	-32
+ 451 01a6 AB       		.byte	-85
+ 452 01a7 03       		.byte	3
+ 453 01a8 AC       		.byte	-84
+ 454 01a9 03       		.byte	3
+ 455 01aa AE       		.byte	-82
+ 456 01ab 14       		.byte	20
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 9
+
+
+ 457 01ac B0       		.byte	-80
+ 458 01ad 10       		.byte	16
+ 459 01ae B1       		.byte	-79
+ 460 01af 04       		.byte	4
+ 461 01b0 B3       		.byte	-77
+ 462 01b1 18       		.byte	24
+ 463 01b2 B4       		.byte	-76
+ 464 01b3 0F       		.byte	15
+ 465 01b4 B5       		.byte	-75
+ 466 01b5 20       		.byte	32
+ 467 01b6 B6       		.byte	-74
+ 468 01b7 E0       		.byte	-32
+ 469 01b8 B7       		.byte	-73
+ 470 01b9 03       		.byte	3
+ 471 01ba BA       		.byte	-70
+ 472 01bb 20       		.byte	32
+ 473 01bc BE       		.byte	-66
+ 474 01bd 01       		.byte	1
+ 475 01be BF       		.byte	-65
+ 476 01bf 10       		.byte	16
+ 477 01c0 C0       		.byte	-64
+ 478 01c1 26       		.byte	38
+ 479 01c2 C1       		.byte	-63
+ 480 01c3 01       		.byte	1
+ 481 01c4 C5       		.byte	-59
+ 482 01c5 0B       		.byte	11
+ 483 01c6 C6       		.byte	-58
+ 484 01c7 0E       		.byte	14
+ 485 01c8 C7       		.byte	-57
+ 486 01c9 C0       		.byte	-64
+ 487 01ca C8       		.byte	-56
+ 488 01cb 25       		.byte	37
+ 489 01cc C9       		.byte	-55
+ 490 01cd FF       		.byte	-1
+ 491 01ce CA       		.byte	-54
+ 492 01cf FF       		.byte	-1
+ 493 01d0 CB       		.byte	-53
+ 494 01d1 FF       		.byte	-1
+ 495 01d2 CE       		.byte	-50
+ 496 01d3 F0       		.byte	-16
+ 497 01d4 CF       		.byte	-49
+ 498 01d5 44       		.byte	68
+ 499 01d6 D0       		.byte	-48
+ 500 01d7 0C       		.byte	12
+ 501 01d8 D4       		.byte	-44
+ 502 01d9 01       		.byte	1
+ 503 01da D8       		.byte	-40
+ 504 01db 04       		.byte	4
+ 505 01dc D9       		.byte	-39
+ 506 01dd 04       		.byte	4
+ 507 01de DA       		.byte	-38
+ 508 01df 04       		.byte	4
+ 509 01e0 DB       		.byte	-37
+ 510 01e1 04       		.byte	4
+ 511 01e2 DF       		.byte	-33
+ 512 01e3 01       		.byte	1
+ 513 01e4 E6       		.byte	-26
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 10
+
+
+ 514 01e5 C0       		.byte	-64
+ 515 01e6 EA       		.byte	-22
+ 516 01e7 40       		.byte	64
+ 517 01e8 EB       		.byte	-21
+ 518 01e9 02       		.byte	2
+ 519 01ea 02       		.byte	2
+ 520 01eb 01       		.byte	1
+ 521 01ec 03       		.byte	3
+ 522 01ed 10       		.byte	16
+ 523 01ee 04       		.byte	4
+ 524 01ef 80       		.byte	-128
+ 525 01f0 05       		.byte	5
+ 526 01f1 19       		.byte	25
+ 527 01f2 0A       		.byte	10
+ 528 01f3 28       		.byte	40
+ 529 01f4 0B       		.byte	11
+ 530 01f5 40       		.byte	64
+ 531 01f6 0D       		.byte	13
+ 532 01f7 08       		.byte	8
+ 533 01f8 0E       		.byte	14
+ 534 01f9 05       		.byte	5
+ 535 01fa 0F       		.byte	15
+ 536 01fb 40       		.byte	64
+ 537 01fc 10       		.byte	16
+ 538 01fd 80       		.byte	-128
+ 539 01fe 11       		.byte	17
+ 540 01ff 04       		.byte	4
+ 541 0200 12       		.byte	18
+ 542 0201 08       		.byte	8
+ 543 0202 15       		.byte	21
+ 544 0203 14       		.byte	20
+ 545 0204 16       		.byte	22
+ 546 0205 02       		.byte	2
+ 547 0206 19       		.byte	25
+ 548 0207 01       		.byte	1
+ 549 0208 1A       		.byte	26
+ 550 0209 08       		.byte	8
+ 551 020a 1D       		.byte	29
+ 552 020b 10       		.byte	16
+ 553 020c 1E       		.byte	30
+ 554 020d 41       		.byte	65
+ 555 020e 20       		.byte	32
+ 556 020f 04       		.byte	4
+ 557 0210 21       		.byte	33
+ 558 0211 08       		.byte	8
+ 559 0212 22       		.byte	34
+ 560 0213 08       		.byte	8
+ 561 0214 23       		.byte	35
+ 562 0215 40       		.byte	64
+ 563 0216 27       		.byte	39
+ 564 0217 69       		.byte	105
+ 565 0218 29       		.byte	41
+ 566 0219 01       		.byte	1
+ 567 021a 2A       		.byte	42
+ 568 021b 01       		.byte	1
+ 569 021c 2D       		.byte	45
+ 570 021d 09       		.byte	9
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 11
+
+
+ 571 021e 2F       		.byte	47
+ 572 021f 84       		.byte	-124
+ 573 0220 30       		.byte	48
+ 574 0221 80       		.byte	-128
+ 575 0222 31       		.byte	49
+ 576 0223 18       		.byte	24
+ 577 0224 33       		.byte	51
+ 578 0225 10       		.byte	16
+ 579 0226 34       		.byte	52
+ 580 0227 80       		.byte	-128
+ 581 0228 35       		.byte	53
+ 582 0229 06       		.byte	6
+ 583 022a 36       		.byte	54
+ 584 022b 10       		.byte	16
+ 585 022c 38       		.byte	56
+ 586 022d 08       		.byte	8
+ 587 022e 39       		.byte	57
+ 588 022f 04       		.byte	4
+ 589 0230 3B       		.byte	59
+ 590 0231 40       		.byte	64
+ 591 0232 3D       		.byte	61
+ 592 0233 10       		.byte	16
+ 593 0234 3E       		.byte	62
+ 594 0235 85       		.byte	-123
+ 595 0236 40       		.byte	64
+ 596 0237 04       		.byte	4
+ 597 0238 46       		.byte	70
+ 598 0239 01       		.byte	1
+ 599 023a 47       		.byte	71
+ 600 023b 10       		.byte	16
+ 601 023c 48       		.byte	72
+ 602 023d 80       		.byte	-128
+ 603 023e 4C       		.byte	76
+ 604 023f 04       		.byte	4
+ 605 0240 4E       		.byte	78
+ 606 0241 10       		.byte	16
+ 607 0242 50       		.byte	80
+ 608 0243 04       		.byte	4
+ 609 0244 56       		.byte	86
+ 610 0245 02       		.byte	2
+ 611 0246 57       		.byte	87
+ 612 0247 80       		.byte	-128
+ 613 0248 5C       		.byte	92
+ 614 0249 20       		.byte	32
+ 615 024a 5D       		.byte	93
+ 616 024b 01       		.byte	1
+ 617 024c 5E       		.byte	94
+ 618 024d 40       		.byte	64
+ 619 024e 5F       		.byte	95
+ 620 024f 08       		.byte	8
+ 621 0250 89       		.byte	-119
+ 622 0251 08       		.byte	8
+ 623 0252 8C       		.byte	-116
+ 624 0253 60       		.byte	96
+ 625 0254 8E       		.byte	-114
+ 626 0255 82       		.byte	-126
+ 627 0256 8F       		.byte	-113
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 12
+
+
+ 628 0257 20       		.byte	32
+ 629 0258 91       		.byte	-111
+ 630 0259 10       		.byte	16
+ 631 025a 92       		.byte	-110
+ 632 025b 04       		.byte	4
+ 633 025c 93       		.byte	-109
+ 634 025d 08       		.byte	8
+ 635 025e 94       		.byte	-108
+ 636 025f 80       		.byte	-128
+ 637 0260 96       		.byte	-106
+ 638 0261 09       		.byte	9
+ 639 0262 98       		.byte	-104
+ 640 0263 80       		.byte	-128
+ 641 0264 99       		.byte	-103
+ 642 0265 06       		.byte	6
+ 643 0266 9D       		.byte	-99
+ 644 0267 08       		.byte	8
+ 645 0268 9F       		.byte	-97
+ 646 0269 41       		.byte	65
+ 647 026a A2       		.byte	-94
+ 648 026b 10       		.byte	16
+ 649 026c B0       		.byte	-80
+ 650 026d 85       		.byte	-123
+ 651 026e B1       		.byte	-79
+ 652 026f 01       		.byte	1
+ 653 0270 C0       		.byte	-64
+ 654 0271 F5       		.byte	-11
+ 655 0272 C2       		.byte	-62
+ 656 0273 FE       		.byte	-2
+ 657 0274 C4       		.byte	-60
+ 658 0275 EE       		.byte	-18
+ 659 0276 CA       		.byte	-54
+ 660 0277 E1       		.byte	-31
+ 661 0278 CC       		.byte	-52
+ 662 0279 FE       		.byte	-2
+ 663 027a CE       		.byte	-50
+ 664 027b FA       		.byte	-6
+ 665 027c D0       		.byte	-48
+ 666 027d 34       		.byte	52
+ 667 027e D2       		.byte	-46
+ 668 027f 20       		.byte	32
+ 669 0280 D6       		.byte	-42
+ 670 0281 F0       		.byte	-16
+ 671 0282 EC       		.byte	-20
+ 672 0283 20       		.byte	32
+ 673 0284 3F       		.byte	63
+ 674 0285 40       		.byte	64
+ 675 0286 CE       		.byte	-50
+ 676 0287 20       		.byte	32
+ 677 0288 97       		.byte	-105
+ 678 0289 40       		.byte	64
+ 679 028a 97       		.byte	-105
+ 680 028b 40       		.byte	64
+ 681 028c 6B       		.byte	107
+ 682 028d 80       		.byte	-128
+ 683 028e 83       		.byte	-125
+ 684 028f 80       		.byte	-128
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 13
+
+
+ 685 0290 97       		.byte	-105
+ 686 0291 40       		.byte	64
+ 687 0292 DC       		.byte	-36
+ 688 0293 20       		.byte	32
+ 689 0294 E2       		.byte	-30
+ 690 0295 80       		.byte	-128
+ 691 0296 30       		.byte	48
+ 692 0297 20       		.byte	32
+ 693 0298 CC       		.byte	-52
+ 694 0299 08       		.byte	8
+ 695 029a 20       		.byte	32
+ 696 029b 80       		.byte	-128
+ 697 029c 23       		.byte	35
+ 698 029d 40       		.byte	64
+ 699 029e 97       		.byte	-105
+ 700 029f 40       		.byte	64
+ 701 02a0 C8       		.byte	-56
+ 702 02a1 40       		.byte	64
+ 703 02a2 B0       		.byte	-80
+ 704 02a3 40       		.byte	64
+ 705 02a4 A4       		.byte	-92
+ 706 02a5 20       		.byte	32
+ 707 02a6 10       		.byte	16
+ 708 02a7 40       		.byte	64
+ 709 02a8 75       		.byte	117
+ 710 02a9 02       		.byte	2
+ 711 02aa 88       		.byte	-120
+ 712 02ab 40       		.byte	64
+ 713 02ac 99       		.byte	-103
+ 714 02ad 02       		.byte	2
+ 715 02ae B0       		.byte	-80
+ 716 02af 20       		.byte	32
+ 717 02b0 B1       		.byte	-79
+ 718 02b1 02       		.byte	2
+ 719 02b2 C4       		.byte	-60
+ 720 02b3 08       		.byte	8
+ 721 02b4 DE       		.byte	-34
+ 722 02b5 04       		.byte	4
+ 723 02b6 E2       		.byte	-30
+ 724 02b7 01       		.byte	1
+ 725 02b8 E8       		.byte	-24
+ 726 02b9 01       		.byte	1
+ 727 02ba EC       		.byte	-20
+ 728 02bb 04       		.byte	4
+ 729 02bc 10       		.byte	16
+ 730 02bd 01       		.byte	1
+ 731 02be 1C       		.byte	28
+ 732 02bf 01       		.byte	1
+ 733 02c0 10       		.byte	16
+ 734 02c1 02       		.byte	2
+ 735 02c2 00       		.byte	0
+ 736 02c3 00       		.byte	0
+ 737 02c4 80       		.byte	-128
+ 738 02c5 80       		.byte	-128
+ 739 02c6 00       		.byte	0
+ 740 02c7 00       		.byte	0
+ 741 02c8 40       		.byte	64
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 14
+
+
+ 742 02c9 00       		.byte	0
+ 743 02ca 00       		.byte	0
+ 744 02cb 00       		.byte	0
+ 745 02cc 3F       		.byte	63
+ 746 02cd 10       		.byte	16
+ 747 02ce 00       		.byte	0
+ 748 02cf 00       		.byte	0
+ 749 02d0 01       		.byte	1
+ 750 02d1 08       		.byte	8
+ 751 02d2 80       		.byte	-128
+ 752 02d3 00       		.byte	0
+ 753 02d4 1F       		.byte	31
+ 754 02d5 18       		.byte	24
+ 755 02d6 20       		.byte	32
+ 756 02d7 00       		.byte	0
+ 757 02d8 02       		.byte	2
+ 758 02d9 00       		.byte	0
+ 759 02da 80       		.byte	-128
+ 760 02db 80       		.byte	-128
+ 761 02dc 33       		.byte	51
+ 762 02dd 00       		.byte	0
+ 763 02de 0C       		.byte	12
+ 764 02df 80       		.byte	-128
+ 765 02e0 1C       		.byte	28
+ 766 02e1 00       		.byte	0
+ 767 02e2 23       		.byte	35
+ 768 02e3 23       		.byte	35
+ 769 02e4 00       		.byte	0
+ 770 02e5 3C       		.byte	60
+ 771 02e6 23       		.byte	35
+ 772 02e7 42       		.byte	66
+ 773 02e8 03       		.byte	3
+ 774 02e9 00       		.byte	0
+ 775 02ea 40       		.byte	64
+ 776 02eb 04       		.byte	4
+ 777 02ec 08       		.byte	8
+ 778 02ed 7F       		.byte	127
+ 779 02ee 00       		.byte	0
+ 780 02ef 00       		.byte	0
+ 781 02f0 04       		.byte	4
+ 782 02f1 04       		.byte	4
+ 783 02f2 00       		.byte	0
+ 784 02f3 00       		.byte	0
+ 785 02f4 0C       		.byte	12
+ 786 02f5 1C       		.byte	28
+ 787 02f6 00       		.byte	0
+ 788 02f7 61       		.byte	97
+ 789 02f8 00       		.byte	0
+ 790 02f9 67       		.byte	103
+ 791 02fa 00       		.byte	0
+ 792 02fb 18       		.byte	24
+ 793 02fc 10       		.byte	16
+ 794 02fd 38       		.byte	56
+ 795 02fe 2C       		.byte	44
+ 796 02ff 80       		.byte	-128
+ 797 0300 0F       		.byte	15
+ 798 0301 1F       		.byte	31
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 15
+
+
+ 799 0302 C0       		.byte	-64
+ 800 0303 40       		.byte	64
+ 801 0304 00       		.byte	0
+ 802 0305 80       		.byte	-128
+ 803 0306 28       		.byte	40
+ 804 0307 20       		.byte	32
+ 805 0308 00       		.byte	0
+ 806 0309 00       		.byte	0
+ 807 030a 41       		.byte	65
+ 808 030b 04       		.byte	4
+ 809 030c 23       		.byte	35
+ 810 030d 04       		.byte	4
+ 811 030e 05       		.byte	5
+ 812 030f 00       		.byte	0
+ 813 0310 01       		.byte	1
+ 814 0311 E0       		.byte	-32
+ 815 0312 0C       		.byte	12
+ 816 0313 00       		.byte	0
+ 817 0314 06       		.byte	6
+ 818 0315 FF       		.byte	-1
+ 819 0316 FF       		.byte	-1
+ 820 0317 FF       		.byte	-1
+ 821 0318 62       		.byte	98
+ 822 0319 A0       		.byte	-96
+ 823 031a F0       		.byte	-16
+ 824 031b 41       		.byte	65
+ 825 031c 0C       		.byte	12
+ 826 031d 00       		.byte	0
+ 827 031e 00       		.byte	0
+ 828 031f 00       		.byte	0
+ 829 0320 00       		.byte	0
+ 830 0321 00       		.byte	0
+ 831 0322 02       		.byte	2
+ 832 0323 10       		.byte	16
+ 833 0324 04       		.byte	4
+ 834 0325 04       		.byte	4
+ 835 0326 04       		.byte	4
+ 836 0327 04       		.byte	4
+ 837 0328 00       		.byte	0
+ 838 0329 00       		.byte	0
+ 839 032a 00       		.byte	0
+ 840 032b 01       		.byte	1
+ 841 032c 00       		.byte	0
+ 842 032d 00       		.byte	0
+ 843 032e 00       		.byte	0
+ 844 032f 00       		.byte	0
+ 845 0330 00       		.byte	0
+ 846 0331 00       		.byte	0
+ 847 0332 40       		.byte	64
+ 848 0333 02       		.byte	2
+ 849 0334 00       		.byte	0
+ 850 0335 10       		.byte	16
+ 851 0336 30       		.byte	48
+ 852 0337 10       		.byte	16
+ 853 0338 00       		.byte	0
+ 854 0339 10       		.byte	16
+ 855 033a 10       		.byte	16
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 16
+
+
+ 856 033b 12       		.byte	18
+ 857 033c 00       		.byte	0
+ 858 033d 00       		.byte	0
+ 859 033e 00       		.byte	0
+ 860 033f 00       		.byte	0
+ 861 0340 00       		.byte	0
+ 862 0341 00       		.byte	0
+ 863 0342 00       		.byte	0
+ 864 0343 00       		.byte	0
+ 865 0344 00       		.byte	0
+ 866 0345 00       		.byte	0
+ 867 0346 00       		.byte	0
+ 868 0347 00       		.byte	0
+ 869 0348 00       		.byte	0
+ 870 0349 00       		.byte	0
+ 871 034a 00       		.byte	0
+ 872 034b 00       		.byte	0
+ 873 034c 80       		.byte	-128
+ 874 034d 00       		.byte	0
+ 875 034e 40       		.byte	64
+ 876 034f 80       		.byte	-128
+ 877 0350 80       		.byte	-128
+ 878 0351 00       		.byte	0
+ 879 0352 80       		.byte	-128
+ 880 0353 00       		.byte	0
+ 881 0354 00       		.byte	0
+ 882 0355 00       		.byte	0
+ 883 0356 00       		.byte	0
+ 884 0357 00       		.byte	0
+ 885 0358 00       		.byte	0
+ 886 0359 0B       		.byte	11
+ 887 035a 0B       		.byte	11
+ 888 035b 00       		.byte	0
+ 889 035c 00       		.byte	0
+ 890 035d 00       		.byte	0
+ 891 035e 80       		.byte	-128
+ 892 035f 00       		.byte	0
+ 893              		.section	.cywolatch,"a",%progbits
+ 894              		.align	2
+ 895              		.type	cy_meta_wonvl, %object
+ 896              		.size	cy_meta_wonvl, 4
+ 897              	cy_meta_wonvl:
+ 898 0000 BC       		.byte	-68
+ 899 0001 90       		.byte	-112
+ 900 0002 AC       		.byte	-84
+ 901 0003 AF       		.byte	-81
+ 902              		.section	.cycustnvl,"a",%progbits
+ 903              		.align	2
+ 904              		.type	cy_meta_custnvl, %object
+ 905              		.size	cy_meta_custnvl, 4
+ 906              	cy_meta_custnvl:
+ 907 0000 00       		.byte	0
+ 908 0001 00       		.byte	0
+ 909 0002 40       		.byte	64
+ 910 0003 05       		.byte	5
+ 911              		.section	.cymeta,"a",%progbits
+ 912              		.align	2
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 17
+
+
+ 913              		.type	cy_metadata, %object
+ 914              		.size	cy_metadata, 12
+ 915              	cy_metadata:
+ 916 0000 00       		.byte	0
+ 917 0001 01       		.byte	1
+ 918 0002 2E       		.byte	46
+ 919 0003 16       		.byte	22
+ 920 0004 10       		.byte	16
+ 921 0005 69       		.byte	105
+ 922 0006 00       		.byte	0
+ 923 0007 01       		.byte	1
+ 924 0008 00       		.byte	0
+ 925 0009 00       		.byte	0
+ 926 000a 00       		.byte	0
+ 927 000b 00       		.byte	0
+ 928              		.section	.cyflashprotect,"a",%progbits
+ 929              		.align	2
+ 930              		.type	cy_meta_flashprotect, %object
+ 931              		.size	cy_meta_flashprotect, 256
+ 932              	cy_meta_flashprotect:
+ 933 0000 00000000 		.space	256
+ 933      00000000 
+ 933      00000000 
+ 933      00000000 
+ 933      00000000 
+ 934              		.text
+ 935              	.Letext0:
+ 936              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 937              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 938              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 939              		.section	.debug_info,"",%progbits
+ 940              	.Ldebug_info0:
+ 941 0000 31010000 		.4byte	0x131
+ 942 0004 0400     		.2byte	0x4
+ 943 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 944 000a 04       		.byte	0x4
+ 945 000b 01       		.uleb128 0x1
+ 946 000c 24000000 		.4byte	.LASF17
+ 947 0010 0C       		.byte	0xc
+ 948 0011 BD010000 		.4byte	.LASF18
+ 949 0015 5F010000 		.4byte	.LASF19
+ 950 0019 00000000 		.4byte	.Ldebug_line0
+ 951 001d 02       		.uleb128 0x2
+ 952 001e 01       		.byte	0x1
+ 953 001f 06       		.byte	0x6
+ 954 0020 B1010000 		.4byte	.LASF0
+ 955 0024 03       		.uleb128 0x3
+ 956 0025 00000000 		.4byte	.LASF9
+ 957 0029 01       		.byte	0x1
+ 958 002a 1D       		.byte	0x1d
+ 959 002b 2F000000 		.4byte	0x2f
+ 960 002f 02       		.uleb128 0x2
+ 961 0030 01       		.byte	0x1
+ 962 0031 08       		.byte	0x8
+ 963 0032 16000000 		.4byte	.LASF1
+ 964 0036 02       		.uleb128 0x2
+ 965 0037 02       		.byte	0x2
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 18
+
+
+ 966 0038 05       		.byte	0x5
+ 967 0039 9E010000 		.4byte	.LASF2
+ 968 003d 02       		.uleb128 0x2
+ 969 003e 02       		.byte	0x2
+ 970 003f 07       		.byte	0x7
+ 971 0040 C4000000 		.4byte	.LASF3
+ 972 0044 02       		.uleb128 0x2
+ 973 0045 04       		.byte	0x4
+ 974 0046 05       		.byte	0x5
+ 975 0047 A8010000 		.4byte	.LASF4
+ 976 004b 02       		.uleb128 0x2
+ 977 004c 04       		.byte	0x4
+ 978 004d 07       		.byte	0x7
+ 979 004e B2000000 		.4byte	.LASF5
+ 980 0052 02       		.uleb128 0x2
+ 981 0053 08       		.byte	0x8
+ 982 0054 05       		.byte	0x5
+ 983 0055 51010000 		.4byte	.LASF6
+ 984 0059 02       		.uleb128 0x2
+ 985 005a 08       		.byte	0x8
+ 986 005b 07       		.byte	0x7
+ 987 005c 06010000 		.4byte	.LASF7
+ 988 0060 04       		.uleb128 0x4
+ 989 0061 04       		.byte	0x4
+ 990 0062 05       		.byte	0x5
+ 991 0063 696E7400 		.ascii	"int\000"
+ 992 0067 02       		.uleb128 0x2
+ 993 0068 04       		.byte	0x4
+ 994 0069 07       		.byte	0x7
+ 995 006a F9000000 		.4byte	.LASF8
+ 996 006e 03       		.uleb128 0x3
+ 997 006f 1D010000 		.4byte	.LASF10
+ 998 0073 02       		.byte	0x2
+ 999 0074 18       		.byte	0x18
+ 1000 0075 24000000 		.4byte	0x24
+ 1001 0079 05       		.uleb128 0x5
+ 1002 007a 91000000 		.4byte	0x91
+ 1003 007e 8A000000 		.4byte	0x8a
+ 1004 0082 06       		.uleb128 0x6
+ 1005 0083 8A000000 		.4byte	0x8a
+ 1006 0087 5F03     		.2byte	0x35f
+ 1007 0089 00       		.byte	0
+ 1008 008a 02       		.uleb128 0x2
+ 1009 008b 04       		.byte	0x4
+ 1010 008c 07       		.byte	0x7
+ 1011 008d 48010000 		.4byte	.LASF11
+ 1012 0091 07       		.uleb128 0x7
+ 1013 0092 6E000000 		.4byte	0x6e
+ 1014 0096 08       		.uleb128 0x8
+ 1015 0097 E7000000 		.4byte	.LASF12
+ 1016 009b 03       		.byte	0x3
+ 1017 009c 1F       		.byte	0x1f
+ 1018 009d A7000000 		.4byte	0xa7
+ 1019 00a1 05       		.uleb128 0x5
+ 1020 00a2 03       		.byte	0x3
+ 1021 00a3 00000000 		.4byte	cy_meta_configecc
+ 1022 00a7 07       		.uleb128 0x7
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 19
+
+
+ 1023 00a8 79000000 		.4byte	0x79
+ 1024 00ac 05       		.uleb128 0x5
+ 1025 00ad 91000000 		.4byte	0x91
+ 1026 00b1 BC000000 		.4byte	0xbc
+ 1027 00b5 09       		.uleb128 0x9
+ 1028 00b6 8A000000 		.4byte	0x8a
+ 1029 00ba 03       		.byte	0x3
+ 1030 00bb 00       		.byte	0
+ 1031 00bc 08       		.uleb128 0x8
+ 1032 00bd D7000000 		.4byte	.LASF13
+ 1033 00c1 03       		.byte	0x3
+ 1034 00c2 98       		.byte	0x98
+ 1035 00c3 CD000000 		.4byte	0xcd
+ 1036 00c7 05       		.uleb128 0x5
+ 1037 00c8 03       		.byte	0x3
+ 1038 00c9 00000000 		.4byte	cy_meta_custnvl
+ 1039 00cd 07       		.uleb128 0x7
+ 1040 00ce AC000000 		.4byte	0xac
+ 1041 00d2 08       		.uleb128 0x8
+ 1042 00d3 3A010000 		.4byte	.LASF14
+ 1043 00d7 03       		.byte	0x3
+ 1044 00d8 A6       		.byte	0xa6
+ 1045 00d9 E3000000 		.4byte	0xe3
+ 1046 00dd 05       		.uleb128 0x5
+ 1047 00de 03       		.byte	0x3
+ 1048 00df 00000000 		.4byte	cy_meta_wonvl
+ 1049 00e3 07       		.uleb128 0x7
+ 1050 00e4 AC000000 		.4byte	0xac
+ 1051 00e8 05       		.uleb128 0x5
+ 1052 00e9 91000000 		.4byte	0x91
+ 1053 00ed F8000000 		.4byte	0xf8
+ 1054 00f1 09       		.uleb128 0x9
+ 1055 00f2 8A000000 		.4byte	0x8a
+ 1056 00f6 FF       		.byte	0xff
+ 1057 00f7 00       		.byte	0
+ 1058 00f8 08       		.uleb128 0x8
+ 1059 00f9 25010000 		.4byte	.LASF15
+ 1060 00fd 03       		.byte	0x3
+ 1061 00fe B4       		.byte	0xb4
+ 1062 00ff 09010000 		.4byte	0x109
+ 1063 0103 05       		.uleb128 0x5
+ 1064 0104 03       		.byte	0x3
+ 1065 0105 00000000 		.4byte	cy_meta_flashprotect
+ 1066 0109 07       		.uleb128 0x7
+ 1067 010a E8000000 		.4byte	0xe8
+ 1068 010e 05       		.uleb128 0x5
+ 1069 010f 91000000 		.4byte	0x91
+ 1070 0113 1E010000 		.4byte	0x11e
+ 1071 0117 09       		.uleb128 0x9
+ 1072 0118 8A000000 		.4byte	0x8a
+ 1073 011c 0B       		.byte	0xb
+ 1074 011d 00       		.byte	0
+ 1075 011e 08       		.uleb128 0x8
+ 1076 011f 0A000000 		.4byte	.LASF16
+ 1077 0123 03       		.byte	0x3
+ 1078 0124 E1       		.byte	0xe1
+ 1079 0125 2F010000 		.4byte	0x12f
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 20
+
+
+ 1080 0129 05       		.uleb128 0x5
+ 1081 012a 03       		.byte	0x3
+ 1082 012b 00000000 		.4byte	cy_metadata
+ 1083 012f 07       		.uleb128 0x7
+ 1084 0130 0E010000 		.4byte	0x10e
+ 1085 0134 00       		.byte	0
+ 1086              		.section	.debug_abbrev,"",%progbits
+ 1087              	.Ldebug_abbrev0:
+ 1088 0000 01       		.uleb128 0x1
+ 1089 0001 11       		.uleb128 0x11
+ 1090 0002 01       		.byte	0x1
+ 1091 0003 25       		.uleb128 0x25
+ 1092 0004 0E       		.uleb128 0xe
+ 1093 0005 13       		.uleb128 0x13
+ 1094 0006 0B       		.uleb128 0xb
+ 1095 0007 03       		.uleb128 0x3
+ 1096 0008 0E       		.uleb128 0xe
+ 1097 0009 1B       		.uleb128 0x1b
+ 1098 000a 0E       		.uleb128 0xe
+ 1099 000b 10       		.uleb128 0x10
+ 1100 000c 17       		.uleb128 0x17
+ 1101 000d 00       		.byte	0
+ 1102 000e 00       		.byte	0
+ 1103 000f 02       		.uleb128 0x2
+ 1104 0010 24       		.uleb128 0x24
+ 1105 0011 00       		.byte	0
+ 1106 0012 0B       		.uleb128 0xb
+ 1107 0013 0B       		.uleb128 0xb
+ 1108 0014 3E       		.uleb128 0x3e
+ 1109 0015 0B       		.uleb128 0xb
+ 1110 0016 03       		.uleb128 0x3
+ 1111 0017 0E       		.uleb128 0xe
+ 1112 0018 00       		.byte	0
+ 1113 0019 00       		.byte	0
+ 1114 001a 03       		.uleb128 0x3
+ 1115 001b 16       		.uleb128 0x16
+ 1116 001c 00       		.byte	0
+ 1117 001d 03       		.uleb128 0x3
+ 1118 001e 0E       		.uleb128 0xe
+ 1119 001f 3A       		.uleb128 0x3a
+ 1120 0020 0B       		.uleb128 0xb
+ 1121 0021 3B       		.uleb128 0x3b
+ 1122 0022 0B       		.uleb128 0xb
+ 1123 0023 49       		.uleb128 0x49
+ 1124 0024 13       		.uleb128 0x13
+ 1125 0025 00       		.byte	0
+ 1126 0026 00       		.byte	0
+ 1127 0027 04       		.uleb128 0x4
+ 1128 0028 24       		.uleb128 0x24
+ 1129 0029 00       		.byte	0
+ 1130 002a 0B       		.uleb128 0xb
+ 1131 002b 0B       		.uleb128 0xb
+ 1132 002c 3E       		.uleb128 0x3e
+ 1133 002d 0B       		.uleb128 0xb
+ 1134 002e 03       		.uleb128 0x3
+ 1135 002f 08       		.uleb128 0x8
+ 1136 0030 00       		.byte	0
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 21
+
+
+ 1137 0031 00       		.byte	0
+ 1138 0032 05       		.uleb128 0x5
+ 1139 0033 01       		.uleb128 0x1
+ 1140 0034 01       		.byte	0x1
+ 1141 0035 49       		.uleb128 0x49
+ 1142 0036 13       		.uleb128 0x13
+ 1143 0037 01       		.uleb128 0x1
+ 1144 0038 13       		.uleb128 0x13
+ 1145 0039 00       		.byte	0
+ 1146 003a 00       		.byte	0
+ 1147 003b 06       		.uleb128 0x6
+ 1148 003c 21       		.uleb128 0x21
+ 1149 003d 00       		.byte	0
+ 1150 003e 49       		.uleb128 0x49
+ 1151 003f 13       		.uleb128 0x13
+ 1152 0040 2F       		.uleb128 0x2f
+ 1153 0041 05       		.uleb128 0x5
+ 1154 0042 00       		.byte	0
+ 1155 0043 00       		.byte	0
+ 1156 0044 07       		.uleb128 0x7
+ 1157 0045 26       		.uleb128 0x26
+ 1158 0046 00       		.byte	0
+ 1159 0047 49       		.uleb128 0x49
+ 1160 0048 13       		.uleb128 0x13
+ 1161 0049 00       		.byte	0
+ 1162 004a 00       		.byte	0
+ 1163 004b 08       		.uleb128 0x8
+ 1164 004c 34       		.uleb128 0x34
+ 1165 004d 00       		.byte	0
+ 1166 004e 03       		.uleb128 0x3
+ 1167 004f 0E       		.uleb128 0xe
+ 1168 0050 3A       		.uleb128 0x3a
+ 1169 0051 0B       		.uleb128 0xb
+ 1170 0052 3B       		.uleb128 0x3b
+ 1171 0053 0B       		.uleb128 0xb
+ 1172 0054 49       		.uleb128 0x49
+ 1173 0055 13       		.uleb128 0x13
+ 1174 0056 3F       		.uleb128 0x3f
+ 1175 0057 19       		.uleb128 0x19
+ 1176 0058 02       		.uleb128 0x2
+ 1177 0059 18       		.uleb128 0x18
+ 1178 005a 00       		.byte	0
+ 1179 005b 00       		.byte	0
+ 1180 005c 09       		.uleb128 0x9
+ 1181 005d 21       		.uleb128 0x21
+ 1182 005e 00       		.byte	0
+ 1183 005f 49       		.uleb128 0x49
+ 1184 0060 13       		.uleb128 0x13
+ 1185 0061 2F       		.uleb128 0x2f
+ 1186 0062 0B       		.uleb128 0xb
+ 1187 0063 00       		.byte	0
+ 1188 0064 00       		.byte	0
+ 1189 0065 00       		.byte	0
+ 1190              		.section	.debug_aranges,"",%progbits
+ 1191 0000 14000000 		.4byte	0x14
+ 1192 0004 0200     		.2byte	0x2
+ 1193 0006 00000000 		.4byte	.Ldebug_info0
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 22
+
+
+ 1194 000a 04       		.byte	0x4
+ 1195 000b 00       		.byte	0
+ 1196 000c 0000     		.2byte	0
+ 1197 000e 0000     		.2byte	0
+ 1198 0010 00000000 		.4byte	0
+ 1199 0014 00000000 		.4byte	0
+ 1200              		.section	.debug_line,"",%progbits
+ 1201              	.Ldebug_line0:
+ 1202 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 1202      02003701 
+ 1202      00000201 
+ 1202      FB0E0D00 
+ 1202      01010101 
+ 1203              	.LASF9:
+ 1204 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 1204      6E74385F 
+ 1204      7400
+ 1205              	.LASF16:
+ 1206 000a 63795F6D 		.ascii	"cy_metadata\000"
+ 1206      65746164 
+ 1206      61746100 
+ 1207              	.LASF1:
+ 1208 0016 756E7369 		.ascii	"unsigned char\000"
+ 1208      676E6564 
+ 1208      20636861 
+ 1208      7200
+ 1209              	.LASF17:
+ 1210 0024 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1210      43313120 
+ 1210      352E342E 
+ 1210      31203230 
+ 1210      31363036 
+ 1211 0057 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1211      20726576 
+ 1211      6973696F 
+ 1211      6E203233 
+ 1211      37373135 
+ 1212 008a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1212      66756E63 
+ 1212      74696F6E 
+ 1212      2D736563 
+ 1212      74696F6E 
+ 1213              	.LASF5:
+ 1214 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1214      20756E73 
+ 1214      69676E65 
+ 1214      6420696E 
+ 1214      7400
+ 1215              	.LASF3:
+ 1216 00c4 73686F72 		.ascii	"short unsigned int\000"
+ 1216      7420756E 
+ 1216      7369676E 
+ 1216      65642069 
+ 1216      6E7400
+ 1217              	.LASF13:
+ 1218 00d7 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 1218      6574615F 
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 23
+
+
+ 1218      63757374 
+ 1218      6E766C00 
+ 1219              	.LASF12:
+ 1220 00e7 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 1220      6574615F 
+ 1220      636F6E66 
+ 1220      69676563 
+ 1220      6300
+ 1221              	.LASF8:
+ 1222 00f9 756E7369 		.ascii	"unsigned int\000"
+ 1222      676E6564 
+ 1222      20696E74 
+ 1222      00
+ 1223              	.LASF7:
+ 1224 0106 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1224      206C6F6E 
+ 1224      6720756E 
+ 1224      7369676E 
+ 1224      65642069 
+ 1225              	.LASF10:
+ 1226 011d 75696E74 		.ascii	"uint8_t\000"
+ 1226      385F7400 
+ 1227              	.LASF15:
+ 1228 0125 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 1228      6574615F 
+ 1228      666C6173 
+ 1228      6870726F 
+ 1228      74656374 
+ 1229              	.LASF14:
+ 1230 013a 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 1230      6574615F 
+ 1230      776F6E76 
+ 1230      6C00
+ 1231              	.LASF11:
+ 1232 0148 73697A65 		.ascii	"sizetype\000"
+ 1232      74797065 
+ 1232      00
+ 1233              	.LASF6:
+ 1234 0151 6C6F6E67 		.ascii	"long long int\000"
+ 1234      206C6F6E 
+ 1234      6720696E 
+ 1234      7400
+ 1235              	.LASF19:
+ 1236 015f 433A5C55 		.ascii	"C:\\Users\\oleksandr\\Desktop\\CourseworkPAZ\\DFB\\"
+ 1236      73657273 
+ 1236      5C6F6C65 
+ 1236      6B73616E 
+ 1236      64725C44 
+ 1237 018c 4446425F 		.ascii	"DFB_project.cydsn\000"
+ 1237      70726F6A 
+ 1237      6563742E 
+ 1237      63796473 
+ 1237      6E00
+ 1238              	.LASF2:
+ 1239 019e 73686F72 		.ascii	"short int\000"
+ 1239      7420696E 
+ 1239      7400
+ARM GAS  C:\Users\OLEKSA~1\AppData\Local\Temp\ccHg6CEn.s 			page 24
+
+
+ 1240              	.LASF4:
+ 1241 01a8 6C6F6E67 		.ascii	"long int\000"
+ 1241      20696E74 
+ 1241      00
+ 1242              	.LASF0:
+ 1243 01b1 7369676E 		.ascii	"signed char\000"
+ 1243      65642063 
+ 1243      68617200 
+ 1244              	.LASF18:
+ 1245 01bd 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 1245      72617465 
+ 1245      645F536F 
+ 1245      75726365 
+ 1245      5C50536F 
+ 1246              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
